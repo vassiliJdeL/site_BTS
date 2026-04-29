@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#021C24"/>
+  <circle cx="512" cy="512" r="480" stroke="#0B4C5A" stroke-width="40" fill="none"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Comfortaa', sans-serif" font-size="600" fill="#0B4C5A" font-weight="bold">Ξ</text>
+  <text x="50%" y="80%" dominant-baseline="middle" text-anchor="middle" font-family="'Comfortaa', sans-serif" font-size="100" fill="#FDF3DB" opacity="0.8">Xenophon</text>
+</svg>

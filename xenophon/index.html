@@ -9,6 +9,84 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/site.css">
+    <style>
+        .tool-detail-header {
+            text-align: left;
+            padding: 6rem 1rem 4rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .tool-header-layout {
+            display: grid;
+            grid-template-columns: 120px minmax(0, 1fr);
+            gap: 1.5rem;
+            align-items: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .tool-header-image img {
+            width: 120px;
+            height: 120px;
+            display: block;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .tool-title {
+            font-size: 3rem;
+            line-height: 1.1;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
+        }
+
+        .tool-tagline {
+            margin: 0;
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .tool-philosophy {
+            text-align: justify;
+        }
+
+        .video-placeholder-container {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1rem;
+            margin: 0 0 4rem;
+        }
+
+        .video-placeholder {
+            aspect-ratio: 16 / 9;
+            background: #000;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(242, 243, 245, 0.78);
+            font-size: 1rem;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        @media (max-width: 720px) {
+            .tool-detail-header {
+                padding: 4.5rem 1rem 3rem;
+            }
+
+            .tool-header-layout {
+                grid-template-columns: 1fr;
+                gap: 1.1rem;
+            }
+
+            .tool-title {
+                font-size: 2.35rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="page-glow page-glow-left" aria-hidden="true"></div>
@@ -34,17 +112,21 @@
     </header>
 
     <main class="site-main">
-        <section class="editorial-page">
-            <section class="editorial-hero">
-                <img
-                    src="../assets/xenophon_portrait.png"
-                    alt="Xénophon"
-                    style="width: 108px; height: 108px; object-fit: cover; border-radius: 999px; border: 1px solid rgba(232, 236, 240, 0.18); margin-bottom: 24px;"
-                >
-                <p class="eyebrow">Outil d'évaluation</p>
-                <h1>Xénophon transforme un rapport de stage BTS en évaluation exploitable, traçable et défendable.</h1>
+        <section class="tool-detail-header">
+            <div class="tool-header-layout">
+                <div class="tool-header-image">
+                    <img src="../assets/medallion-xenophon.svg" alt="Xénophon">
+                </div>
+                <div class="tool-header-text">
+                    <p class="eyebrow">Outil d'évaluation</p>
+                    <h1 class="tool-title">Xénophon</h1>
+                    <p class="tool-tagline"><em>Évaluer les rapports de stage et dossiers professionnels BTS avec une logique traçable, harmonisable et défendable</em></p>
+                </div>
+            </div>
+
+            <div class="tool-philosophy">
                 <p class="lead">L'outil est pensé pour les équipes qui doivent lire vite, harmoniser juste, et pouvoir expliquer sur quoi repose une décision d'évaluation à partir d'un document professionnel souvent court, hétérogène et inégalement normé.</p>
-            </section>
+            </div>
 
             <div class="editorial-body">
                 <section class="editorial-section">
@@ -63,6 +145,15 @@
                         <p>Concrètement, l'outil permet de disposer d'une évaluation structurée au regard du BTS visé, d'une explicitation des points forts et des fragilités du dossier, et d'un appui stable pour formuler une appréciation cohérente d'une lecture à l'autre.</p>
                     </div>
                 </section>
+
+                <div class="video-placeholder-container">
+                    <div class="video-placeholder">
+                        Espace reserve pour la video illustrative de Xénophon
+                    </div>
+                    <p style="text-align: center; margin: 1rem 0 0; color: var(--text-muted); font-size: 0.9rem;">
+                        Cet emplacement accueillera la video de demonstration, au meme format que sur le site US.
+                    </p>
+                </div>
 
                 <section class="editorial-section">
                     <h2>Comment il travaille</h2>
