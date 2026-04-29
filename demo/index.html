@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démo | Grades Education BTS</title>
+    <meta name="description" content="Demander une démo de Xénophon appliquée aux BTS, aux rapports de stage et à l'harmonisation des évaluations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+    <div class="page-glow page-glow-left" aria-hidden="true"></div>
+    <div class="page-glow page-glow-right" aria-hidden="true"></div>
+
+    <header class="site-header navbar">
+        <div class="header-inner container nav-container">
+            <a href="../index.html" class="brand" aria-label="Grades Education BTS">
+                <img src="../assets/logo-grades.svg" alt="Grades Education" class="brand-logo site-logo">
+            </a>
+            <button class="nav-toggle mobile-menu-btn" data-nav-toggle aria-expanded="false" aria-label="Ouvrir la navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="site-nav" data-site-nav>
+                <a href="../index.html">Accueil</a>
+                <a href="../referentiels/index.html">Référentiels</a>
+                <a href="../methodologie/index.html">Mode d'emploi</a>
+                <a href="index.html" class="btn-primary active">Démo</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Demander une démo</h2>
+                <p>Si votre établissement ou votre équipe BTS envisage Grades Education, nous pouvons partir d'un BTS précis, d'un rapport réel, d'une question d'harmonisation ou d'un besoin de préparation de jury.</p>
+                <p>La démonstration est pensée pour être courte, concrète et directement reliée à vos pratiques.</p>
+            </div>
+            <form
+                class="contact-form"
+                action="/webhook/bts-demo-request"
+                method="post"
+                data-demo-form
+                data-endpoint="/webhook/bts-demo-request"
+                data-preview-endpoint="https://grades-education.eu/webhook/bts-demo-request"
+            >
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="institution">Établissement / organisation</label>
+                    <input type="text" id="institution" name="institution" placeholder="Nom de l'établissement" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email professionnel" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Objet</label>
+                    <input type="text" id="subject" name="subject" placeholder="Demande de démo BTS" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Décrivez le BTS concerné, vos priorités, ou le type de démonstration souhaité." required></textarea>
+                </div>
+                <div class="form-group form-group-hidden" aria-hidden="true">
+                    <label for="website">Site web</label>
+                    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+                <button type="submit" class="btn-primary full-width">Envoyer la demande</button>
+                <p class="form-status" data-form-status aria-live="polite"></p>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer home-site-footer">
+        <div class="container footer-content">
+            <div class="copyright">
+                © <span data-year></span> Grades Education. Tous droits réservés.
+            </div>
+            <div class="social-links" style="display: none;">
+                <a href="../index.html">Accueil</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<svg width="860" height="320" viewBox="0 0 860 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vue d'ensemble des BTS publiés</title>
+  <desc id="desc">25 BTS publiés, dont 17 en CCF et 8 en ponctuel.</desc>
+  <rect width="860" height="320" rx="16" fill="rgba(242,245,248,0.04)"/>
+  <rect x="72" y="54" width="716" height="212" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(232,236,240,0.13)"/>
+  <line x1="120" y1="230.5" x2="740" y2="230.5" stroke="rgba(232,236,240,0.18)"/>
+  <line x1="120" y1="176.5" x2="740" y2="176.5" stroke="rgba(232,236,240,0.08)"/>
+  <line x1="120" y1="122.5" x2="740" y2="122.5" stroke="rgba(232,236,240,0.08)"/>
+  <line x1="120" y1="68.5" x2="740" y2="68.5" stroke="rgba(232,236,240,0.08)"/>
+
+  <rect x="176" y="80" width="110" height="150" rx="8" fill="#6A0F2C"/>
+  <rect x="375" y="128" width="110" height="102" rx="8" fill="#8898A8"/>
+  <rect x="574" y="182" width="110" height="48" rx="8" fill="#C6D0DA"/>
+
+  <text x="231" y="70" fill="#F2F3F5" font-family="'Source Sans 3', sans-serif" font-size="26" font-weight="600" text-anchor="middle">25</text>
+  <text x="430" y="118" fill="#F2F3F5" font-family="'Source Sans 3', sans-serif" font-size="26" font-weight="600" text-anchor="middle">17</text>
+  <text x="629" y="172" fill="#F2F3F5" font-family="'Source Sans 3', sans-serif" font-size="26" font-weight="600" text-anchor="middle">8</text>
+
+  <text x="231" y="257" fill="#E8ECF0" font-family="'Source Sans 3', sans-serif" font-size="16" font-weight="500" text-anchor="middle">BTS publiés</text>
+  <text x="430" y="257" fill="#E8ECF0" font-family="'Source Sans 3', sans-serif" font-size="16" font-weight="500" text-anchor="middle">CCF</text>
+  <text x="629" y="257" fill="#E8ECF0" font-family="'Source Sans 3', sans-serif" font-size="16" font-weight="500" text-anchor="middle">Ponctuel</text>
+
+  <text x="430" y="32" fill="#F2F3F5" font-family="'EB Garamond', serif" font-size="28" font-weight="600" text-anchor="middle">BTS publiés et documentés</text>
+</svg>

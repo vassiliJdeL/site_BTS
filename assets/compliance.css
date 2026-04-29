@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --bg-center: #0b4c5a;
+    --bg-mid: #063b46;
+    --bg-outer: #021c24;
+    --text-heading: #fdf3db;
+    --text-body: #fdf8f2;
+    --text-muted: rgba(253, 248, 242, 0.72);
+    --primary: #5d001e;
+    --primary-hover: #7a0028;
+    --surface: rgba(255, 255, 255, 0.05);
+    --border: rgba(253, 243, 219, 0.1);
+    --gradient-main: radial-gradient(circle at top center, var(--bg-center), var(--bg-mid), var(--bg-outer));
+    --gradient-text: linear-gradient(to right, #fdf3db, #f0e68c);
+    --radius: 50px;
+    --radius-card: 16px;
+    --font-main: "Comfortaa", handwriting, system-ui, sans-serif;
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-body);
+    background: var(--bg-outer);
+    background-image: var(--gradient-main);
+    background-attachment: fixed;
+    min-height: 100vh;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--text-heading);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border-radius: var(--radius);
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+    background: var(--primary-hover);
+    transform: translateY(-2px);
+}
+
+.navbar {
+    padding: 1.5rem 0;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-heading);
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-links a:not(.btn-primary) {
+    color: var(--text-heading);
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.nav-links a:not(.btn-primary):hover,
+.nav-links a:not(.btn-primary):focus-visible {
+    opacity: 1;
+    color: #fff;
+}
+
+.nav-links .active {
+    opacity: 1;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: var(--text-heading);
+    border-radius: 3px;
+}
+
+.page-header {
+    text-align: center;
+    padding: 6rem 1rem 4rem;
+}
+
+.page-header h1,
+.compliance-title {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: var(--text-body);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.hub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0 6rem;
+}
+
+.hub-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-card);
+    padding: 2.5rem;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hub-card:hover,
+.hub-card:focus-visible {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.hub-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-heading);
+}
+
+.hub-card p {
+    color: var(--text-body);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.card-arrow {
+    color: var(--primary);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hub-card:hover .card-arrow,
+.hub-card:focus-visible .card-arrow {
+    gap: 0.8rem;
+}
+
+.compliance-content {
+    max-width: 800px;
+    margin: 6rem auto;
+    text-align: left;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+    color: var(--text-heading);
+}
+
+.compliance-section p {
+    font-size: 1.1rem;
+    color: var(--text-body);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.compliance-section ul {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--text-body);
+    line-height: 1.8;
+}
+
+.compliance-section li {
+    margin-bottom: 1rem;
+}
+
+.compliance-section h3 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    border-top: 1px solid var(--border);
+    padding: 3rem 0;
+    margin-top: auto;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.copyright {
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: var(--bg-mid);
+        padding: 1rem;
+        border-bottom: 1px solid var(--border);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        backdrop-filter: blur(10px);
+    }
+
+    .nav-links.active a {
+        margin-left: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+    }
+
+    .page-header h1,
+    .compliance-title {
+        font-size: 2.5rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+}
