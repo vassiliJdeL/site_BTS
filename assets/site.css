@@ -365,7 +365,7 @@ label {
 .hero-side-panel {
     border: 1px solid var(--border);
     border-radius: var(--radius-card);
-    background: linear-gradient(180deg, rgba(106, 15, 44, 0.18), rgba(255, 255, 255, 0.03));
+    background: var(--surface);
 }
 
 .mini-label,
@@ -960,13 +960,7 @@ label {
 }
 
 .editorial-hero::before {
-    content: "";
-    display: block;
-    width: 112px;
-    height: 3px;
-    margin-bottom: 24px;
-    border-radius: var(--radius-pill);
-    background: linear-gradient(90deg, rgba(242, 243, 245, 0.92), rgba(106, 15, 44, 0.92));
+    display: none;
 }
 
 .editorial-body {
