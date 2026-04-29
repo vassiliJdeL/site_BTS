@@ -8,9 +8,6 @@ Sous-site statique consacré aux BTS, conçu comme une verticale de `Grades Educ
 - `referentiels/index.html`
 - `referentiels/bts-assurance.html`
 - `referentiels/bts-systemes-numeriques.html`
-- `methodologie/index.html`
-- `methodologie/ccf-vs-ponctuel.html`
-- `methodologie/reconstitution-des-criteres.html`
 - `cas-d-usage/index.html`
 - `ressources/index.html`
 - `ressources/webinaire-19-mai-2026.html`
