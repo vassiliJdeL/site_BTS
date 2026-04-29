@@ -18,15 +18,38 @@ const siteScript = document.querySelector('script[src$="assets/site.js"]');
 const legalHref = siteScript
     ? siteScript.getAttribute("src")?.replace("assets/site.js", "mentions-legales/index.html")
     : null;
+const xenophonHref = siteScript
+    ? siteScript.getAttribute("src")?.replace("assets/site.js", "xenophon/index.html")
+    : null;
 const complianceHref = siteScript
     ? siteScript.getAttribute("src")?.replace("assets/site.js", "conformite/index.html")
     : null;
 const isLegalPage = window.location.pathname.endsWith("/mentions-legales/index.html")
     || window.location.pathname.endsWith("/mentions-legales/")
     || window.location.pathname.endsWith("mentions-legales/index.html");
+const isXenophonPage = window.location.pathname.endsWith("/xenophon/index.html")
+    || window.location.pathname.endsWith("/xenophon/")
+    || window.location.pathname.includes("/xenophon/");
 const isCompliancePage = window.location.pathname.endsWith("/conformite/index.html")
     || window.location.pathname.endsWith("/conformite/")
     || window.location.pathname.includes("/conformite/");
+
+if (siteNav && xenophonHref && !isXenophonPage) {
+    const xenophonLinkExists = document.querySelector(`a[href="${xenophonHref}"], a[href$="/xenophon/index.html"]`);
+
+    if (!xenophonLinkExists) {
+        const xenophonLink = document.createElement("a");
+        const referentielsLink = siteNav.querySelector('a[href$="referentiels/index.html"], a[href="referentiels/index.html"], a[href="../referentiels/index.html"]');
+        xenophonLink.href = xenophonHref;
+        xenophonLink.textContent = "Xénophon";
+
+        if (referentielsLink?.nextSibling) {
+            siteNav.insertBefore(xenophonLink, referentielsLink.nextSibling);
+        } else if (referentielsLink) {
+            siteNav.appendChild(xenophonLink);
+        }
+    }
+}
 
 if (siteNav && complianceHref && !isCompliancePage) {
     const complianceLinkExists = document.querySelector(`a[href="${complianceHref}"], a[href$="/conformite/index.html"]`);
