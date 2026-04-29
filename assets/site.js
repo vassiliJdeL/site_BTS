@@ -202,9 +202,10 @@ if (demoForm instanceof HTMLFormElement) {
                 body: JSON.stringify(payload)
             });
 
-            const result = await response.json().catch(() => null);
+            const responseText = await response.text();
+            const result = responseText ? JSON.parse(responseText) : null;
 
-            if (!response.ok || !result?.success) {
+            if (!response.ok || (responseText && !result?.success)) {
                 throw new Error("submission_failed");
             }
 
