@@ -206,7 +206,7 @@ if (demoForm instanceof HTMLFormElement) {
         }
 
         if (!(submitButton instanceof HTMLButtonElement) || !endpoint) {
-            setFormStatus("L'envoi n'est pas disponible pour le moment. Ecrivez a vassili@gradesedu.io.", "is-error");
+            setFormStatus("L'envoi n'est pas disponible pour le moment. Ecrivez a vassili@gradesedu.eu.", "is-error");
             return;
         }
 
@@ -235,7 +235,7 @@ if (demoForm instanceof HTMLFormElement) {
             demoForm.reset();
             setFormStatus("Votre demande a bien ete envoyee. Nous revenons vers vous rapidement.", "is-success");
         } catch (error) {
-            setFormStatus("L'envoi n'a pas abouti. Reessayez dans quelques instants ou ecrivez a vassili@gradesedu.io.", "is-error");
+            setFormStatus("L'envoi n'a pas abouti. Reessayez dans quelques instants ou ecrivez a vassili@gradesedu.eu.", "is-error");
         } finally {
             submitButton.disabled = false;
             submitButton.textContent = originalLabel;

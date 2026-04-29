@@ -1,7 +1,12 @@
 [
   {
+    "updatedAt": "2026-04-29T12:57:16.251Z",
+    "createdAt": "2026-04-29T09:06:37.988Z",
+    "id": "vP4gUlkSUPEi9wus",
     "name": "BTS Demo Intake",
-    "active": false,
+    "description": null,
+    "active": true,
+    "isArchived": false,
     "nodes": [
       {
         "parameters": {
@@ -15,45 +20,74 @@
         "type": "n8n-nodes-base.webhook",
         "typeVersion": 1,
         "position": [
-          120,
-          300
+          128,
+          304
         ],
         "webhookId": "bts-demo-request"
       },
       {
         "parameters": {
-          "jsCode": "const source = ($json.body && typeof $json.body === 'object' && !Array.isArray($json.body)) ? $json.body : $json;\nconst fields = {\n  name: typeof source.name === 'string' ? source.name.trim() : '',\n  institution: typeof source.institution === 'string' ? source.institution.trim() : '',\n  email: typeof source.email === 'string' ? source.email.trim() : '',\n  subject: typeof source.subject === 'string' ? source.subject.trim() : '',\n  message: typeof source.message === 'string' ? source.message.trim() : '',\n  website: typeof source.website === 'string' ? source.website.trim() : ''\n};\n\nif (fields.website) {\n  return [{ json: { success: true, skipped: true } }];\n}\n\nfor (const key of ['name', 'institution', 'email', 'subject', 'message']) {\n  if (!fields[key]) {\n    throw new Error(`Champ requis manquant: ${key}`);\n  }\n}\n\nconst emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\nif (!emailPattern.test(fields.email)) {\n  throw new Error('Adresse email invalide');\n}\n\nconst escapeHtml = (value) => String(value)\n  .replace(/&/g, '&amp;')\n  .replace(/</g, '&lt;')\n  .replace(/>/g, '&gt;')\n  .replace(/\"/g, '&quot;')\n  .replace(/'/g, '&#39;');\n\nconst submittedAt = new Date().toISOString();\nconst subjectLine = `[BTS Demo] ${fields.subject} - ${fields.name}`;\nconst html = `<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <style>\n    body{margin:0;padding:32px;background:#12171e;color:#f2f3f5;font-family:Arial,sans-serif;line-height:1.6}\n    .card{max-width:760px;margin:0 auto;padding:32px;border:1px solid rgba(143,210,255,.22);border-radius:24px;background:#171d26}\n    h1{margin:0 0 24px;font-size:28px;color:#f7f2e8;font-family:Georgia,serif}\n    dl{margin:0;display:grid;grid-template-columns:180px 1fr;gap:12px 18px}\n    dt{font-weight:700;color:#8fd2ff}\n    dd{margin:0}\n    .message{margin-top:28px;padding-top:24px;border-top:1px solid rgba(242,243,245,.12)}\n    p{margin:0;white-space:pre-wrap}\n    .meta{margin-top:28px;font-size:14px;color:#b6c0c9}\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <h1>Nouvelle demande de demo BTS</h1>\n    <dl>\n      <dt>Nom</dt><dd>${escapeHtml(fields.name)}</dd>\n      <dt>Etablissement</dt><dd>${escapeHtml(fields.institution)}</dd>\n      <dt>Email</dt><dd>${escapeHtml(fields.email)}</dd>\n      <dt>Objet</dt><dd>${escapeHtml(fields.subject)}</dd>\n    </dl>\n    <div class=\"message\">\n      <p>${escapeHtml(fields.message)}</p>\n    </div>\n    <div class=\"meta\">\n      <p>Recu le ${escapeHtml(submittedAt)}</p>\n    </div>\n  </div>\n</body>\n</html>`;\n\nreturn [{\n  json: {\n    ...fields,\n    submittedAt,\n    success: true,\n    toEmail: 'vassili@gradesedu.io',\n    fromEmail: 'xenophon@grades-education.eu',\n    subjectLine,\n    html\n  }\n}];"
+          "jsCode": "const source = ($json.body && typeof $json.body === 'object' && !Array.isArray($json.body)) ? $json.body : $json;\nconst fields = {\n  name: typeof source.name === 'string' ? source.name.trim() : '',\n  institution: typeof source.institution === 'string' ? source.institution.trim() : '',\n  email: typeof source.email === 'string' ? source.email.trim() : '',\n  subject: typeof source.subject === 'string' ? source.subject.trim() : '',\n  message: typeof source.message === 'string' ? source.message.trim() : '',\n  website: typeof source.website === 'string' ? source.website.trim() : ''\n};\n\nif (fields.website) {\n  return [{\n    json: {\n      success: true,\n      skipped: true,\n      toEmail: 'vassili@gradesedu.eu',\n      fromEmail: 'xenophon@grades-education.eu',\n      replyToEmail: fields.email || 'vassili@gradesedu.eu',\n      subjectLine: '[BTS Demo] Soumission ignoree (honeypot)',\n      html: '<p>Soumission ignoree.</p>',\n      ackToEmail: fields.email || 'vassili@gradesedu.eu',\n      ackSubjectLine: 'Votre demande BTS a bien ete recue',\n      ackHtml: '<p>Votre demande a bien ete recue.</p>'\n    }\n  }];\n}\n\nfor (const key of ['name', 'institution', 'email', 'subject', 'message']) {\n  if (!fields[key]) {\n    throw new Error(`Champ requis manquant: ${key}`);\n  }\n}\n\nconst emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\nif (!emailPattern.test(fields.email)) {\n  throw new Error('Adresse email invalide');\n}\n\nconst escapeHtml = (value) => String(value)\n  .replace(/&/g, '&amp;')\n  .replace(/</g, '&lt;')\n  .replace(/>/g, '&gt;')\n  .replace(/\"/g, '&quot;')\n  .replace(/'/g, '&#39;');\n\nconst submittedAt = new Date().toISOString();\nconst subjectLine = `[BTS Demo] ${fields.subject} - ${fields.name}`;\nconst html = `<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <style>\n    body{margin:0;padding:32px;background:#12171e;color:#f2f3f5;font-family:Arial,sans-serif;line-height:1.6}\n    .card{max-width:760px;margin:0 auto;padding:32px;border:1px solid rgba(143,210,255,.22);border-radius:24px;background:#171d26}\n    h1{margin:0 0 24px;font-size:28px;color:#f7f2e8;font-family:Georgia,serif}\n    dl{margin:0;display:grid;grid-template-columns:180px 1fr;gap:12px 18px}\n    dt{font-weight:700;color:#8fd2ff}\n    dd{margin:0}\n    .message{margin-top:28px;padding-top:24px;border-top:1px solid rgba(242,243,245,.12)}\n    p{margin:0;white-space:pre-wrap}\n    .meta{margin-top:28px;font-size:14px;color:#b6c0c9}\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <h1>Nouvelle demande de demo BTS</h1>\n    <dl>\n      <dt>Nom</dt><dd>${escapeHtml(fields.name)}</dd>\n      <dt>Etablissement</dt><dd>${escapeHtml(fields.institution)}</dd>\n      <dt>Email</dt><dd>${escapeHtml(fields.email)}</dd>\n      <dt>Objet</dt><dd>${escapeHtml(fields.subject)}</dd>\n    </dl>\n    <div class=\"message\">\n      <p>${escapeHtml(fields.message)}</p>\n    </div>\n    <div class=\"meta\">\n      <p>Recu le ${escapeHtml(submittedAt)}</p>\n    </div>\n  </div>\n</body>\n</html>`;\n\nconst ackSubjectLine = 'Votre demande BTS a bien ete recue';\nconst ackHtml = `<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <style>\n    body{margin:0;padding:32px;background:#12171e;color:#f2f3f5;font-family:Arial,sans-serif;line-height:1.6}\n    .card{max-width:680px;margin:0 auto;padding:32px;border:1px solid rgba(143,210,255,.22);border-radius:24px;background:#171d26}\n    h1{margin:0 0 20px;font-size:28px;color:#f7f2e8;font-family:Georgia,serif}\n    p{margin:0 0 16px}\n    .meta{margin-top:24px;font-size:14px;color:#b6c0c9}\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <h1>Votre demande a bien ete recue</h1>\n    <p>Bonjour ${escapeHtml(fields.name)},</p>\n    <p>Nous avons bien recu votre demande de demonstration pour Grades Education BTS.</p>\n    <p>Nous reviendrons vers vous rapidement a l'adresse <strong>${escapeHtml(fields.email)}</strong>.</p>\n    <p class=\"meta\">Message recu le ${escapeHtml(submittedAt)}.</p>\n  </div>\n</body>\n</html>`;\n\nreturn [{\n  json: {\n    ...fields,\n    submittedAt,\n    success: true,\n    toEmail: 'vassili@gradesedu.eu',\n    fromEmail: 'xenophon@grades-education.eu',\n    replyToEmail: fields.email,\n    subjectLine,\n    html,\n    ackToEmail: fields.email,\n    ackSubjectLine,\n    ackHtml\n  }\n}];"
         },
         "id": "707ec7dd-1f14-4f4e-ac4a-13cd08f40807",
         "name": "Prepare Demo Email",
         "type": "n8n-nodes-base.code",
         "typeVersion": 2,
         "position": [
-          360,
-          300
+          368,
+          304
         ]
       },
       {
         "parameters": {
-          "fromEmail": "={{ $json.fromEmail }}",
+          "fromEmail": "=xenophon@grades-education.eu",
           "toEmail": "={{ $json.toEmail }}",
           "subject": "={{ $json.subjectLine }}",
           "emailFormat": "html",
           "html": "={{ $json.html }}",
-          "options": {}
+          "options": {
+            "replyTo": "={{ $json.replyToEmail }}"
+          }
         },
         "id": "b40b438d-6d86-44f0-8a29-b5a0e672ef6f",
         "name": "Send Demo Email",
         "type": "n8n-nodes-base.emailSend",
         "typeVersion": 2,
         "position": [
-          600,
-          300
+          608,
+          304
+        ],
+        "webhookId": "1b131807-9227-49af-b020-7771811bd633",
+        "credentials": {
+          "smtp": {
+            "id": "sxZRqCKYKPrUU8Hm",
+            "name": "Grades email"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "fromEmail": "=xenophon@grades-education.eu",
+          "toEmail": "={{ $json.ackToEmail }}",
+          "subject": "={{ $json.ackSubjectLine }}",
+          "emailFormat": "html",
+          "html": "={{ $json.ackHtml }}",
+          "options": {
+            "replyTo": "vassili@gradesedu.eu"
+          }
+        },
+        "id": "8c21e72c-349a-4e7b-94fc-c113123d3d7a",
+        "name": "Send Acknowledgement",
+        "type": "n8n-nodes-base.emailSend",
+        "typeVersion": 2,
+        "position": [
+          848,
+          304
         ],
         "credentials": {
           "smtp": {
-            "id": "y4mC4suX2rS8vDC6",
-            "name": "SMTP account"
+            "id": "sxZRqCKYKPrUU8Hm",
+            "name": "Grades email"
           }
         }
       },
@@ -68,8 +102,8 @@
         "type": "n8n-nodes-base.respondToWebhook",
         "typeVersion": 1.1,
         "position": [
-          840,
-          300
+          1088,
+          304
         ]
       }
     ],
@@ -100,6 +134,17 @@
         "main": [
           [
             {
+              "node": "Send Acknowledgement",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Send Acknowledgement": {
+        "main": [
+          [
+            {
               "node": "Webhook Response",
               "type": "main",
               "index": 0
@@ -116,9 +161,27 @@
       "templateCredsSetupCompleted": true
     },
     "pinData": {},
-    "versionId": "252c7e58-f235-4f40-917b-29f6f5652f23",
-    "versionCounter": 1,
-    "triggerCount": 0,
-    "tags": []
+    "versionId": "8b02ce36-cb65-4a42-941d-c8bb1afb1488",
+    "versionCounter": 7,
+    "triggerCount": 1,
+    "tags": [],
+    "shared": [
+      {
+        "updatedAt": "2026-04-29T09:06:37.988Z",
+        "createdAt": "2026-04-29T09:06:37.988Z",
+        "role": "workflow:owner",
+        "workflowId": "vP4gUlkSUPEi9wus",
+        "projectId": "249ed9a8-8fbf-4c38-b339-6247ad47aeb4",
+        "project": {
+          "updatedAt": "2026-01-09T15:45:24.810Z",
+          "createdAt": "2026-01-09T15:45:24.810Z",
+          "id": "249ed9a8-8fbf-4c38-b339-6247ad47aeb4",
+          "name": "Personal",
+          "type": "personal",
+          "icon": null,
+          "description": null
+        }
+      }
+    ]
   }
 ]
