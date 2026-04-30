@@ -93,6 +93,9 @@ body::before {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    width: min(1040px, calc(100% - 2rem));
+    max-width: 1040px;
+    padding: 0 1rem;
 }
 
 .brand {
@@ -102,14 +105,14 @@ body::before {
     color: var(--text-heading);
     text-decoration: none;
     line-height: 1;
-    margin-left: clamp(24px, 4vw, 56px);
+    margin-left: 0;
 }
 
 .brand-logo {
-    height: 76px;
+    height: 92px;
     width: auto;
     display: block;
-    transform: translateY(6px);
+    transform: translateY(4px);
 }
 
 .brand-context {
@@ -1297,9 +1300,17 @@ main th a:focus-visible,
 }
 
 @media (max-width: 768px) {
+    .header-inner {
+        width: calc(100% - 2rem);
+    }
+
     .brand {
         margin-left: 0;
         gap: 12px;
+    }
+
+    .brand-logo {
+        height: 78px;
     }
 
     .nav-toggle {
