@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap");
+
 :root {
     --bg-center: #2C323A;
     --bg-mid: #252C33;
@@ -21,6 +23,8 @@
     --radius-soft: 22px;
     --font-main: "Source Sans 3", sans-serif;
     --font-heading: "EB Garamond", serif;
+    --font-brand: "Comfortaa", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+    --content-width: 800px;
     --container: min(1200px, calc(100% - 2rem));
 }
 
@@ -92,37 +96,57 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    width: min(1040px, calc(100% - 2rem));
-    max-width: 1040px;
-    padding: 0 1rem;
+    gap: 24px;
+    width: min(var(--content-width), calc(100% - 2rem));
+    max-width: var(--content-width);
+    padding: 0;
 }
 
 .brand {
     display: inline-flex;
     align-items: center;
-    gap: 16px;
+    gap: 14px;
     color: var(--text-heading);
     text-decoration: none;
     line-height: 1;
     margin-left: 0;
+    flex: 0 0 auto;
 }
 
-.brand-logo {
-    height: 92px;
-    width: auto;
+.brand-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
+
+.brand-symbol {
     display: block;
-    transform: translateY(4px);
+    width: 40px;
+    height: 52px;
 }
 
-.brand-context {
+.brand-wordmark {
+    display: inline-block;
+    font-family: var(--font-brand);
+    font-size: 2.14rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0;
+    white-space: nowrap;
+    color: var(--text-heading);
+}
+
+.brand-logo,
+.site-logo {
     display: none;
 }
 
 .site-nav {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.25rem;
+    margin-left: auto;
 }
 
 .site-nav a {
@@ -131,12 +155,13 @@ body::before {
     font-weight: 600;
     padding: 0;
     transition: all 0.2s;
+    white-space: nowrap;
 }
 
 .site-nav .btn-primary {
     padding: 0.8rem 2rem;
     color: #fff;
-    margin-left: 0.25rem;
+    margin-left: 0.1rem;
 }
 
 .site-nav a:hover,
@@ -159,6 +184,10 @@ body::before {
     color: #fff;
     opacity: 1;
     text-decoration: none;
+}
+
+.brand-context {
+    display: none;
 }
 
 .nav-toggle {
@@ -631,7 +660,7 @@ label {
 }
 
 .editorial-page {
-    width: min(820px, calc(100% - 32px));
+    width: min(var(--content-width), calc(100% - 32px));
     margin: 0 auto;
     padding: 56px 0 72px;
 }
@@ -841,13 +870,13 @@ label {
 }
 
 .page-content-narrow {
-    max-width: 800px;
+    max-width: var(--content-width);
     margin: 0 auto 4rem;
     text-align: left;
 }
 
 .bts-detail-page {
-    max-width: 800px;
+    max-width: var(--content-width);
     margin: 0 auto 4rem;
 }
 
@@ -1302,15 +1331,21 @@ main th a:focus-visible,
 @media (max-width: 768px) {
     .header-inner {
         width: calc(100% - 2rem);
+        padding: 0;
     }
 
     .brand {
         margin-left: 0;
-        gap: 12px;
+        gap: 10px;
     }
 
-    .brand-logo {
-        height: 78px;
+    .brand-symbol {
+        width: 32px;
+        height: 42px;
+    }
+
+    .brand-wordmark {
+        font-size: 1.48rem;
     }
 
     .nav-toggle {
