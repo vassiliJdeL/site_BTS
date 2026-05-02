@@ -107,14 +107,20 @@ const resultsCount = document.querySelector("[data-results-count]");
 
 if (btsRows.length) {
     let activeFilter = "all";
+    const normalizeCatalogueText = (value) =>
+        (value || "")
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "");
 
     const syncBtsCatalogue = () => {
-        const query = (btsSearch?.value || "").trim().toLowerCase();
+        const query = normalizeCatalogueText((btsSearch?.value || "").trim());
         let visible = 0;
 
         btsRows.forEach((row) => {
             const status = row.dataset.statusKey || "";
-            const haystack = row.dataset.searchText || row.textContent.toLowerCase();
+            const indexedText = [row.dataset.searchText || "", row.textContent || ""].join(" ");
+            const haystack = normalizeCatalogueText(indexedText);
             const matchesFilter = activeFilter === "all" || status === activeFilter;
             const matchesQuery = !query || haystack.includes(query);
             const shouldShow = matchesFilter && matchesQuery;
