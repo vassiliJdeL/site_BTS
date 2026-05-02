@@ -105,7 +105,7 @@ body::before {
 .brand {
     display: inline-flex;
     align-items: center;
-    gap: 14px;
+    gap: 0;
     color: var(--text-heading);
     text-decoration: none;
     line-height: 1;
@@ -114,32 +114,23 @@ body::before {
 }
 
 .brand-mark {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex: 0 0 auto;
+    display: none;
 }
 
 .brand-symbol {
-    display: block;
-    width: 40px;
-    height: 52px;
+    display: none;
 }
 
 .brand-wordmark {
-    display: inline-block;
-    font-family: var(--font-brand);
-    font-size: 2.14rem;
-    font-weight: 400;
-    line-height: 1;
-    letter-spacing: 0;
-    white-space: nowrap;
-    color: var(--text-heading);
+    display: none;
 }
 
 .brand-logo,
 .site-logo {
-    display: none;
+    display: block;
+    height: 76px;
+    width: auto;
+    transform: none;
 }
 
 .site-nav {
@@ -1336,16 +1327,21 @@ main th a:focus-visible,
 
     .brand {
         margin-left: 0;
-        gap: 10px;
+        gap: 0;
     }
 
     .brand-symbol {
-        width: 32px;
-        height: 42px;
+        display: none;
     }
 
     .brand-wordmark {
-        font-size: 1.48rem;
+        display: none;
+    }
+
+    .brand-logo,
+    .site-logo {
+        height: 76px;
+        transform: none;
     }
 
     .nav-toggle {
