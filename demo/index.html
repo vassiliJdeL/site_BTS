@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Démo | Grades Education BTS</title>
-    <meta name="description" content="Demander une démo de Xénophon appliquée aux BTS, aux rapports de stage et à l'harmonisation des évaluations.">
+    <title>Contact | Grades Education BTS</title>
+    <meta name="description" content="Contacter Grades Education BTS à propos des 79 BTS documentés, des référentiels, des fiches d'évaluation ou d'un usage de Xénophon dans votre établissement.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/site.css?v=20260430-1">
+    <link rel="stylesheet" href="../assets/site.css?v=20260502-2">
 </head>
 <body>
     <div class="page-glow page-glow-left" aria-hidden="true"></div>
@@ -27,7 +27,7 @@
             <nav class="site-nav" data-site-nav>
                 <a href="../index.html">Accueil</a>
                 <a href="../referentiels/index.html">Référentiels</a>
-                <a href="index.html" class="btn-primary active">Démo</a>
+                <a href="index.html" class="btn-primary active">Contact</a>
             </nav>
         </div>
     </header>
@@ -35,9 +35,9 @@
     <main class="container">
         <div class="contact-container">
             <div class="contact-info">
-                <h2>Demander une démo</h2>
-                <p>Si votre établissement ou votre équipe BTS envisage Grades Education, nous pouvons partir d'un BTS précis, d'un rapport réel, d'une question d'harmonisation ou d'un besoin de préparation de jury.</p>
-                <p>La démonstration est pensée pour être courte, concrète et directement reliée à vos pratiques.</p>
+                <h2>Nous contacter</h2>
+                <p>Pour toute question sur les référentiels BTS, sur les fiches d'évaluation, ou pour voir comment Xénophon peut s'articuler avec vos pratiques réelles.</p>
+                <p>Le corpus public couvre désormais 79 BTS documentés. Si vous avez un BTS précis en tête, indiquez-le directement dans votre message avec le type de support concerné : rapport de stage, dossier professionnel, soutenance, compte rendu d'activités ou autre document évalué.</p>
             </div>
             <form
                 class="contact-form"
@@ -61,17 +61,21 @@
                 </div>
                 <div class="form-group">
                     <label for="subject">Objet</label>
-                    <input type="text" id="subject" name="subject" placeholder="Demande de démo BTS" required>
+                    <input type="text" id="subject" name="subject" placeholder="Référentiel BTS, fiche d'évaluation ou démo Xénophon" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" placeholder="Décrivez le BTS concerné, vos priorités, ou le type de démonstration souhaité." required></textarea>
+                    <textarea id="message" name="message" rows="4" placeholder="Indiquez le BTS concerné, le support évalué, votre modalité (CCF, ponctuelle, mixte) et ce que vous souhaitez obtenir." required></textarea>
                 </div>
                 <div class="form-group form-group-hidden" aria-hidden="true">
                     <label for="website">Site web</label>
                     <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
                 </div>
                 <button type="submit" class="btn-primary full-width">Envoyer la demande</button>
+                <div class="form-consent">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent" class="form-legal-note">En soumettant ce formulaire, j'accepte que les données transmises soient collectées par Grades Education aux fins de traitement de ma demande et de suivi de notre relation pour une durée maximale de trois ans. Conformément aux dispositions du RGPD, je dispose d'un droit d'accès, de rectification et de suppression de mes données en <a class="inline-link" href="../mentions-legales/index.html">contactant directement Grades Education</a>.</label>
+                </div>
                 <p class="form-status" data-form-status aria-live="polite"></p>
             </form>
         </div>
