@@ -19,18 +19,37 @@
 
         .tool-header-layout {
             display: grid;
-            grid-template-columns: 120px minmax(0, 1fr);
+            grid-template-columns: 140px minmax(0, 1fr);
             gap: 1.5rem;
             align-items: center;
             margin-bottom: 2.5rem;
         }
 
-        .tool-header-image img {
-            width: 120px;
-            height: 120px;
+        .tool-header-image {
+            position: relative;
+            width: 140px;
+            height: 140px;
+        }
+
+        .tool-header-image .tool-portrait {
+            width: 140px;
+            height: 140px;
             display: block;
             object-fit: cover;
             border-radius: 50%;
+            border: 1px solid rgba(232, 236, 240, 0.16);
+        }
+
+        .tool-header-image .tool-medallion {
+            position: absolute;
+            right: -6px;
+            bottom: -8px;
+            width: 54px;
+            height: 54px;
+            display: block;
+            border-radius: 50%;
+            background: #021c24;
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
         }
 
         .tool-title {
@@ -115,7 +134,8 @@
         <section class="tool-detail-header">
             <div class="tool-header-layout">
                 <div class="tool-header-image">
-                    <img src="../assets/xenophon_portrait_20260430.jpg" alt="Xénophon">
+                    <img src="../assets/xenophon_portrait_20260430.jpg" alt="Portrait de Xénophon" class="tool-portrait">
+                    <img src="../assets/medallion-xenophon.svg" alt="Médaillon Xénophon" class="tool-medallion">
                 </div>
                 <div class="tool-header-text">
                     <p class="eyebrow">Appui à l'évaluation</p>
