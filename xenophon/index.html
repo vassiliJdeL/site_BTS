@@ -7,102 +7,287 @@
     <meta name="description" content="Xénophon aide les équipes BTS à transformer un rapport de stage ou un dossier professionnel en évaluation traçable, harmonisable et défendable, à partir d'un corpus de 79 BTS documentés.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/site.css?v=20260502-2">
     <style>
-        .tool-detail-header {
-            text-align: left;
-            padding: 6rem 1rem 4rem;
-            max-width: 800px;
+        .xeno-shell {
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 2.5rem 1rem 5rem;
         }
 
-        .tool-header-layout {
+        .xeno-panel {
+            background: #faf7f2;
+            color: #292524;
+            border-radius: 24px;
+            padding: 2rem;
+            box-shadow: 0 18px 60px rgba(0, 0, 0, 0.18);
+        }
+
+        .xeno-breadcrumb {
+            color: #78716c;
+            font-family: "Inter", sans-serif;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .xeno-breadcrumb a {
+            color: #78716c;
+            text-decoration: none;
+        }
+
+        .xeno-breadcrumb a:hover {
+            color: #d97706;
+        }
+
+        .xeno-header {
             display: grid;
-            grid-template-columns: 140px minmax(0, 1fr);
-            gap: 1.5rem;
-            align-items: center;
-            margin-bottom: 2.5rem;
+            grid-template-columns: 170px minmax(0, 1fr);
+            gap: 1.75rem;
+            align-items: start;
+            margin-bottom: 2rem;
         }
 
-        .tool-header-image {
+        .xeno-figure {
             position: relative;
-            width: 140px;
-            height: 140px;
+            width: 170px;
+            height: 170px;
         }
 
-        .tool-header-image .tool-portrait {
-            width: 140px;
-            height: 140px;
+        .xeno-portrait {
+            width: 170px;
+            height: 170px;
             display: block;
             object-fit: cover;
             border-radius: 50%;
-            border: 1px solid rgba(232, 236, 240, 0.16);
+            border: 1px solid rgba(41, 37, 36, 0.08);
         }
 
-        .tool-header-image .tool-medallion {
+        .xeno-medallion {
             position: absolute;
-            right: -6px;
-            bottom: -8px;
-            width: 54px;
-            height: 54px;
+            right: -10px;
+            bottom: -12px;
+            width: 62px;
+            height: 62px;
             display: block;
             border-radius: 50%;
             background: #021c24;
-            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
         }
 
-        .tool-title {
+        .xeno-kicker {
+            display: inline-block;
+            margin-bottom: 0.85rem;
+            padding: 0.3rem 0.75rem;
+            border-radius: 999px;
+            background: rgba(217, 119, 6, 0.12);
+            color: #b45309;
+            font-family: "Inter", sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .xeno-title {
+            margin: 0 0 0.4rem;
+            color: #1c1917;
+            font-family: "Playfair Display", serif;
             font-size: 3rem;
-            line-height: 1.1;
-            margin-bottom: 0.75rem;
-            letter-spacing: -0.02em;
+            font-weight: 700;
+            line-height: 1.06;
         }
 
-        .tool-tagline {
+        .xeno-meta {
+            color: #78716c;
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
+            margin: 0 0 0.35rem;
+        }
+
+        .xeno-location {
+            color: #78716c;
+            font-family: "Inter", sans-serif;
+            font-size: 0.95rem;
             margin: 0;
-            font-size: 1.25rem;
-            color: var(--text-muted);
+        }
+
+        .xeno-tagline {
+            margin: 1rem 0 0;
+            color: #44403c;
+            font-family: "Inter", sans-serif;
+            font-size: 1.06rem;
+            line-height: 1.7;
+            max-width: 58rem;
+        }
+
+        .xeno-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem;
+            margin-top: 1rem;
+        }
+
+        .xeno-tag {
+            display: inline-block;
+            padding: 0.36rem 0.7rem;
+            border-radius: 999px;
+            background: #f3e8ff;
+            color: #7c3aed;
+            font-family: "Inter", sans-serif;
+            font-size: 0.8rem;
             font-weight: 500;
         }
 
-        .tool-philosophy {
-            text-align: justify;
+        .xeno-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            margin: 0 0 2rem;
         }
 
-        .video-placeholder-container {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border);
+        .xeno-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            padding: 0.7rem 1rem;
+            border: 1px solid #e7e5e4;
             border-radius: 12px;
-            padding: 1rem;
-            margin: 0 0 4rem;
+            background: #fff;
+            color: #57534e;
+            font-family: "Inter", sans-serif;
+            font-size: 0.92rem;
+            font-weight: 500;
+            text-decoration: none;
         }
 
-        .video-placeholder {
+        .xeno-action:hover {
+            border-color: #fdba74;
+            color: #c2410c;
+        }
+
+        .xeno-summary {
+            margin: 0 0 2rem;
+            padding: 1.5rem;
+            border-radius: 18px;
+            background: #f5f5f4;
+            color: #44403c;
+            font-family: "Inter", sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .xeno-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1.85fr) minmax(260px, 1fr);
+            gap: 2rem;
+        }
+
+        .xeno-main {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .xeno-section h2,
+        .xeno-aside-card h2 {
+            margin: 0 0 1rem;
+            color: #1c1917;
+            font-family: "Playfair Display", serif;
+            font-size: 1.9rem;
+            font-weight: 700;
+        }
+
+        .xeno-copy {
+            color: #44403c;
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .xeno-copy p {
+            margin: 0 0 1rem;
+        }
+
+        .xeno-aside {
+            display: grid;
+            gap: 1.25rem;
+            align-content: start;
+        }
+
+        .xeno-aside-card {
+            padding: 1.35rem;
+            border: 1px solid #e7e5e4;
+            border-radius: 18px;
+            background: #fff;
+        }
+
+        .xeno-aside-card h2 {
+            font-size: 1.35rem;
+            margin-bottom: 0.85rem;
+        }
+
+        .xeno-list {
+            margin: 0;
+            padding-left: 1.1rem;
+            color: #44403c;
+            font-family: "Inter", sans-serif;
+            line-height: 1.8;
+        }
+
+        .xeno-video-card {
+            padding: 1rem;
+            border: 1px solid #e7e5e4;
+            border-radius: 18px;
+            background: #fff;
+        }
+
+        .xeno-video {
             aspect-ratio: 16 / 9;
             background: #000;
-            border-radius: 8px;
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: rgba(242, 243, 245, 0.78);
+            font-family: "Inter", sans-serif;
             font-size: 1rem;
             text-align: center;
             padding: 1.5rem;
         }
 
+        .xeno-video-note {
+            margin: 0.85rem 0 0;
+            color: #78716c;
+            font-family: "Inter", sans-serif;
+            font-size: 0.92rem;
+            line-height: 1.7;
+            text-align: center;
+        }
+
         @media (max-width: 720px) {
-            .tool-detail-header {
-                padding: 4.5rem 1rem 3rem;
+            .xeno-panel {
+                padding: 1.3rem;
             }
 
-            .tool-header-layout {
+            .xeno-header {
                 grid-template-columns: 1fr;
                 gap: 1.1rem;
             }
 
-            .tool-title {
-                font-size: 2.35rem;
+            .xeno-figure {
+                width: 140px;
+                height: 140px;
+            }
+
+            .xeno-portrait {
+                width: 140px;
+                height: 140px;
+            }
+
+            .xeno-title {
+                font-size: 2.4rem;
+            }
+
+            .xeno-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -131,70 +316,111 @@
     </header>
 
     <main class="site-main">
-        <section class="tool-detail-header">
-            <div class="tool-header-layout">
-                <div class="tool-header-image">
-                    <img src="../assets/xenophon_portrait_20260430.jpg" alt="Portrait de Xénophon" class="tool-portrait">
-                    <img src="../assets/medallion-xenophon.svg" alt="Médaillon Xénophon" class="tool-medallion">
-                </div>
-                <div class="tool-header-text">
-                    <p class="eyebrow">Appui à l'évaluation</p>
-                    <h1 class="tool-title">Xénophon</h1>
-                    <p class="tool-tagline"><em>Transformer un support professionnel BTS en lecture d'évaluation structurée, à partir d'un corpus documentaire enfin exploitable</em></p>
-                </div>
-            </div>
-
-            <div class="tool-philosophy">
-                <p class="lead">Xénophon est pensé pour les équipes qui doivent lire vite, harmoniser juste, et pouvoir expliquer sur quoi repose une décision d'évaluation à partir d'un document professionnel souvent court, hétérogène et inégalement normé. Il s'appuie sur le corpus public du site, désormais organisé sur 79 BTS documentés.</p>
-            </div>
-
-            <div class="editorial-body">
-                <section class="editorial-section">
-                    <h2>Ce qu'il résout pour l'établissement</h2>
-                    <div class="copy-flow">
-                        <p>Dans un BTS, le rapport de stage ou le dossier professionnel ne se lit pas comme une copie classique. Il faut tenir ensemble un support réel, une modalité d'épreuve, un référentiel parfois ancien, une grille parfois absente, et des pratiques de lecture qui varient d'une équipe à l'autre.</p>
-                        <p>Le site BTS rend enfin ce paysage lisible : 79 BTS documentés, des supports repérés, des modalités distinguées entre CCF, ponctuel et mixte selon la voie, et des fiches d'évaluation accessibles. Mais disposer des documents n'épuise pas encore la difficulté d'évaluer.</p>
-                        <p>Xénophon intervient précisément là. Il rebranche la lecture du document sur le référentiel mobilisable, structure l'appréciation, et redonne à l'équipe une base commune pour discuter une décision au lieu de juxtaposer des impressions.</p>
-                    </div>
-                </section>
-
-                <section class="editorial-section">
-                    <h2>Ce qu'il produit</h2>
-                    <div class="copy-flow">
-                        <p>Xénophon ne produit pas une note magique. Il produit une lecture argumentée et actionnable du support, dans une forme directement exploitable pour l'harmonisation, la préparation de jury, ou la discussion pédagogique.</p>
-                        <p>Concrètement, l'outil permet de partir d'un BTS précis, du support effectivement évalué, et de la modalité réellement applicable. Il restitue ensuite des critères organisés, des points forts, des fragilités et une base stable pour formuler une appréciation cohérente d'une lecture à l'autre.</p>
-                    </div>
-                </section>
-
-                <div class="video-placeholder-container">
-                    <div class="video-placeholder">
-                        Espace réservé pour la démonstration vidéo de Xénophon
-                    </div>
-                    <p style="text-align: center; margin: 1rem 0 0; color: var(--text-muted); font-size: 0.9rem;">
-                        Cet emplacement accueillera la démonstration vidéo, dans le même format que sur le site principal.
-                    </p>
+        <section class="xeno-shell">
+            <div class="xeno-panel">
+                <div class="xeno-breadcrumb">
+                    <a href="../referentiels/index.html">Référentiels BTS</a>
+                    <span style="margin: 0 0.55rem;">/</span>
+                    <span>Xénophon</span>
                 </div>
 
-                <section class="editorial-section">
-                    <h2>Comment il travaille</h2>
-                    <div class="copy-flow">
-                        <p>Xénophon part d'un cas simple : un BTS donné, un support remis par l'étudiant, et le corpus de référence que le site Grades Education BTS a déjà organisé en amont.</p>
-                        <p>L'outil replace d'abord le document dans sa logique d'épreuve. Il ne regarde pas seulement si le rapport « est bon », mais ce que ce type de support est censé permettre d'observer dans ce BTS précis, dans cette modalité précise, avec ce niveau de preuve documentaire.</p>
-                        <p>Il restitue ensuite une lecture structurée qui peut servir autant à sécuriser une décision individuelle qu'à harmoniser une équipe entière face à des dossiers de qualité très contrastée.</p>
+                <div class="xeno-header">
+                    <div class="xeno-figure">
+                        <img src="../assets/xenophon_portrait_20260430.jpg" alt="Portrait de Xénophon" class="xeno-portrait">
+                        <img src="../assets/medallion-xenophon.svg" alt="Médaillon Xénophon" class="xeno-medallion">
                     </div>
-                </section>
 
-                <section class="editorial-section">
-                    <h2>Ce que coûte l'absence d'un tel outil</h2>
-                    <div class="copy-flow">
-                        <p>Sans dispositif de lecture structuré, l'établissement certifie parfois plus une qualité rédactionnelle générale qu'une adéquation réelle aux attendus du diplôme. Les écarts entre évaluateurs deviennent difficiles à expliquer, les arbitrages restent peu traçables, et la soutenabilité du jury repose trop sur la bonne volonté des personnes.</p>
-                        <p>Quand il faut justifier comment une décision a été prise, l'institution a alors peu de matière objectivable. Le site BTS fournit désormais l'assise documentaire ; Xénophon sert à transformer cette assise en raisonnement d'évaluation explicite.</p>
+                    <div>
+                        <div class="xeno-kicker">Appui à l'évaluation</div>
+                        <h1 class="xeno-title">Xénophon</h1>
+                        <p class="xeno-meta">Évaluation des rapports de stage et dossiers professionnels en BTS</p>
+                        <p class="xeno-location">Corpus public structuré sur 79 BTS documentés</p>
+
+                        <div class="xeno-tags">
+                            <span class="xeno-tag">Rapports de stage</span>
+                            <span class="xeno-tag">Dossiers professionnels</span>
+                            <span class="xeno-tag">CCF</span>
+                            <span class="xeno-tag">Ponctuelle</span>
+                            <span class="xeno-tag">Modalité mixte</span>
+                        </div>
+
+                        <p class="xeno-tagline">Xénophon aide les équipes à relier un support professionnel réel à la bonne logique d’épreuve, au bon référentiel et à une lecture d’évaluation défendable, harmonisable et traçable.</p>
                     </div>
-                    <div class="compact-actions">
-                        <a href="../demo/index.html" class="btn-primary">Prendre contact</a>
-                        <a href="../referentiels/index.html" class="btn-secondary">Voir les référentiels</a>
+                </div>
+
+                <div class="xeno-actions">
+                    <a href="../referentiels/index.html" class="xeno-action">Voir les référentiels</a>
+                    <a href="../demo/index.html" class="xeno-action">Prendre contact</a>
+                </div>
+
+                <div class="xeno-summary">
+                    Xénophon est pensé pour les équipes qui doivent lire vite, harmoniser juste, et pouvoir expliquer sur quoi repose une décision d’évaluation à partir d’un document professionnel souvent court, hétérogène et inégalement normé.
+                </div>
+
+                <div class="xeno-grid">
+                    <div class="xeno-main">
+                        <section class="xeno-section">
+                            <h2>Ce qu’il résout pour l’établissement</h2>
+                            <div class="xeno-copy">
+                                <p>Dans un BTS, le rapport de stage ou le dossier professionnel ne se lit pas comme une copie classique. Il faut tenir ensemble un support réel, une modalité d’épreuve, un référentiel parfois ancien, une grille parfois absente, et des pratiques de lecture qui varient d’une équipe à l’autre.</p>
+                                <p>Le site BTS rend enfin ce paysage lisible : 79 BTS documentés, des supports repérés, des modalités distinguées entre CCF, ponctuelle et mixte selon la voie, et des fiches d’évaluation accessibles. Mais disposer des documents n’épuise pas encore la difficulté d’évaluer.</p>
+                                <p>Xénophon intervient précisément là. Il rebranche la lecture du document sur le référentiel mobilisable, structure l’appréciation, et redonne à l’équipe une base commune pour discuter une décision au lieu de juxtaposer des impressions.</p>
+                            </div>
+                        </section>
+
+                        <section class="xeno-section">
+                            <h2>Ce qu’il produit</h2>
+                            <div class="xeno-copy">
+                                <p>Xénophon ne produit pas une note magique. Il produit une lecture argumentée et actionnable du support, dans une forme directement exploitable pour l’harmonisation, la préparation de jury, ou la discussion pédagogique.</p>
+                                <p>Concrètement, l’outil permet de partir d’un BTS précis, du support effectivement évalué, et de la modalité réellement applicable. Il restitue ensuite des critères organisés, des points forts, des fragilités et une base stable pour formuler une appréciation cohérente d’une lecture à l’autre.</p>
+                            </div>
+                        </section>
+
+                        <section class="xeno-section">
+                            <h2>Comment il travaille</h2>
+                            <div class="xeno-copy">
+                                <p>Xénophon part d’un cas simple : un BTS donné, un support remis par l’étudiant, et le corpus de référence que le site Grades Education BTS a déjà organisé en amont.</p>
+                                <p>L’outil replace d’abord le document dans sa logique d’épreuve. Il ne regarde pas seulement si le rapport est convaincant, mais ce que ce type de support est censé permettre d’observer dans ce BTS précis, dans cette modalité précise, avec ce niveau de preuve documentaire.</p>
+                                <p>Il restitue ensuite une lecture structurée qui peut servir autant à sécuriser une décision individuelle qu’à harmoniser une équipe entière face à des dossiers de qualité très contrastée.</p>
+                            </div>
+                        </section>
+
+                        <section class="xeno-section">
+                            <h2>Ce que coûte l’absence d’un tel outil</h2>
+                            <div class="xeno-copy">
+                                <p>Sans dispositif de lecture structuré, l’établissement certifie parfois plus une qualité rédactionnelle générale qu’une adéquation réelle aux attendus du diplôme. Les écarts entre évaluateurs deviennent difficiles à expliquer, les arbitrages restent peu traçables, et la soutenabilité du jury repose trop sur la bonne volonté des personnes.</p>
+                                <p>Quand il faut justifier comment une décision a été prise, l’institution a alors peu de matière objectivable. Le site BTS fournit désormais l’assise documentaire ; Xénophon sert à transformer cette assise en raisonnement d’évaluation explicite.</p>
+                            </div>
+                        </section>
                     </div>
-                </section>
+
+                    <aside class="xeno-aside">
+                        <div class="xeno-video-card">
+                            <div class="xeno-video">Espace réservé pour la démonstration vidéo de Xénophon</div>
+                            <p class="xeno-video-note">Cet emplacement accueillera la démonstration vidéo, dans un format court et directement exploitable.</p>
+                        </div>
+
+                        <section class="xeno-aside-card">
+                            <h2>Base de référence</h2>
+                            <ul class="xeno-list">
+                                <li>79 BTS documentés</li>
+                                <li>Support évalué identifié</li>
+                                <li>Modalité distinguée</li>
+                                <li>Fiche d’évaluation associée</li>
+                            </ul>
+                        </section>
+
+                        <section class="xeno-aside-card">
+                            <h2>Ce que l’équipe obtient</h2>
+                            <ul class="xeno-list">
+                                <li>Une lecture structurée du support</li>
+                                <li>Des critères organisés</li>
+                                <li>Une appréciation explicitable</li>
+                                <li>Une base d’harmonisation</li>
+                            </ul>
+                        </section>
+                    </aside>
+                </div>
             </div>
         </section>
     </main>
