@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xénophon Test | Grades Education BTS</title>
+    <meta name="description" content="Page de test protégée pour soumettre un rapport BTS dans Xénophon.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/site.css?v=20260502-2">
+    <link rel="stylesheet" href="./xenophon_bts_form.css?v=20260512-1">
+    <style>
+        .test-page-shell {
+            padding-bottom: 4rem;
+        }
+
+        .test-page-header {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 6rem 1rem 1.5rem;
+        }
+
+        .test-page-header .eyebrow {
+            margin-bottom: 0.5rem;
+        }
+
+        .test-page-header h1 {
+            margin: 0 0 1rem;
+            font-size: 3rem;
+            line-height: 1.05;
+            letter-spacing: -0.02em;
+        }
+
+        .test-page-header p {
+            margin: 0;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 720px) {
+            .test-page-header {
+                padding-top: 5rem;
+            }
+
+            .test-page-header h1 {
+                font-size: 2.35rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-glow page-glow-left" aria-hidden="true"></div>
+    <div class="page-glow page-glow-right" aria-hidden="true"></div>
+
+    <header class="site-header navbar">
+        <div class="header-inner container nav-container">
+            <a href="../../index.html" class="brand" aria-label="Grades Education BTS">
+                <img src="../../assets/logo-grades.svg?v=20260430-1" alt="Grades Education BTS" class="brand-logo site-logo">
+            </a>
+            <button class="nav-toggle mobile-menu-btn" data-nav-toggle aria-expanded="false" aria-label="Ouvrir la navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="site-nav" data-site-nav>
+                <a href="../../index.html">Accueil</a>
+                <a href="../../referentiels/index.html">Référentiels</a>
+                <a href="../index.html" class="is-active">Xénophon</a>
+                <a href="../../demo/index.html" class="btn-primary">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main test-page-shell">
+        <section class="test-page-header">
+            <p class="eyebrow">Page test protégée</p>
+            <h1>Xénophon</h1>
+            <p>Soumission de rapport BTS vers le formulaire de test, avec sélection du BTS et de la modalité d’évaluation. L’accès à cette page et à l’API de soumission est protégé sur le serveur.</p>
+        </section>
+
+        <div class="container submission-page">
+            <section class="tool-detail-header">
+                <div class="tool-header-layout">
+                    <div class="tool-header-image">
+                        <img id="xenophon-portrait" src="./xenophon_portrait_20260430.jpg" alt="Portrait de Xénophon" class="tool-portrait">
+                    </div>
+                    <div class="tool-header-text">
+                        <p class="eyebrow">Appui à l'évaluation</p>
+                        <h1 class="tool-title">Xénophon</h1>
+                        <p class="tool-tagline"><em>Appui à l'évaluation des rapports de stage et dossiers professionnels.</em></p>
+                    </div>
+                </div>
+
+                <div class="tool-philosophy">
+                    <p class="lead">Le formulaire permet de diriger automatiquement chaque support vers la bonne grille BTS avant lancement de l'évaluation.</p>
+                </div>
+
+                <div class="form-shell">
+                    <form id="xenophon-bts-form" class="contact-form submission-form" novalidate>
+                        <div class="form-group combo-field">
+                            <span>BTS concerné</span>
+                            <div class="combo" id="bts-combo">
+                                <div class="combo-control">
+                                    <input
+                                        id="bts-search"
+                                        class="combo-input"
+                                        type="text"
+                                        autocomplete="off"
+                                        placeholder="Ex. SIO, MCO, NDRC, BTS assurance..."
+                                        aria-autocomplete="list"
+                                        aria-expanded="false"
+                                        aria-controls="bts-results"
+                                        required
+                                    >
+                                    <button type="button" class="combo-toggle" id="bts-toggle" aria-label="Afficher les BTS disponibles">
+                                        <span aria-hidden="true">▾</span>
+                                    </button>
+                                </div>
+                                <input type="hidden" name="bts_slug" id="bts-slug">
+                                <input type="hidden" name="bts_label" id="bts-label">
+                                <input type="hidden" name="evaluation_mode" id="evaluation-mode">
+                                <div class="combo-results" id="bts-results" role="listbox"></div>
+                            </div>
+                            <p class="selection-summary" id="selection-summary" hidden></p>
+                        </div>
+
+                        <div class="form-grid">
+                            <label class="form-group">
+                                <span>Prénom</span>
+                                <input type="text" name="prenom" autocomplete="given-name" required>
+                            </label>
+                            <label class="form-group">
+                                <span>Nom</span>
+                                <input type="text" name="nom" autocomplete="family-name" required>
+                            </label>
+                            <label class="form-group">
+                                <span>Email</span>
+                                <input type="email" name="email" autocomplete="email" required>
+                            </label>
+                            <label class="form-group">
+                                <span>Entreprise</span>
+                                <input type="text" name="entreprise" autocomplete="organization">
+                            </label>
+                        </div>
+
+                        <label class="form-group">
+                            <span>Titre du rapport</span>
+                            <input type="text" name="titre" placeholder="Ex. Rapport de stage BTS SIO" required>
+                        </label>
+
+                        <label class="form-group">
+                            <span>Rapport de stage</span>
+                            <input type="file" name="document" accept=".pdf,.doc,.docx,.rtf,.txt" required>
+                        </label>
+
+                        <div class="form-group form-group-hidden" aria-hidden="true">
+                            <label for="website">Site web</label>
+                            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-primary full-width">Envoyer le rapport</button>
+                        </div>
+                    </form>
+
+                    <section class="status-block" id="status-block" hidden>
+                        <h2>État de la soumission</h2>
+                        <div class="status-panel" id="status-panel"></div>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="footer-note">© <span data-year></span> Grades Education.</p>
+        </div>
+    </footer>
+    <script src="./bts_catalog.js?v=20260512-1"></script>
+    <script src="./xenophon_bts_form.js?v=20260512-1"></script>
+    <script src="../../assets/site.js"></script>
+</body>
+</html>

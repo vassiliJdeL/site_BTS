@@ -1,0 +1,2549 @@
+[
+  {
+    "bts_slug": "bts_aeronautique",
+    "bts_label": "BTS Aéronautique",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_aeronautique:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_aeronautique",
+        "bts_label": "BTS Aéronautique",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Aéronautique CCF bts aeronautique Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_aeronautique:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_aeronautique",
+        "bts_label": "BTS Aéronautique",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Aéronautique Ponctuelle bts aeronautique Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_analyses_de_biologie_medicale",
+    "bts_label": "BTS Analysés de biologie medicale",
+    "bts_acronym": "ABM",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_analyses_de_biologie_medicale:ccf",
+        "label": "ABM — CCF",
+        "bts_slug": "bts_analyses_de_biologie_medicale",
+        "bts_label": "BTS Analysés de biologie medicale",
+        "bts_acronym": "ABM",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Analysés de biologie medicale ABM CCF bts analyses de biologie medicale CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_architectures_en_metal_conception_et_realisation",
+    "bts_label": "BTS Architectures en metal : conception et réalisation",
+    "bts_acronym": "AMCR",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_architectures_en_metal_conception_et_realisation:ccf",
+        "label": "AMCR — CCF",
+        "bts_slug": "bts_architectures_en_metal_conception_et_realisation",
+        "bts_label": "BTS Architectures en metal : conception et réalisation",
+        "bts_acronym": "AMCR",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Architectures en metal : conception et réalisation AMCR CCF bts architectures en metal conception et realisation Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_architectures_en_metal_conception_et_realisation:ponctuelle",
+        "label": "AMCR — Ponctuelle",
+        "bts_slug": "bts_architectures_en_metal_conception_et_realisation",
+        "bts_label": "BTS Architectures en metal : conception et réalisation",
+        "bts_acronym": "AMCR",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Architectures en metal : conception et réalisation AMCR Ponctuelle bts architectures en metal conception et realisation Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_assistance_technique_d_ingenieur",
+    "bts_label": "BTS Assistance technique d'ingénieur",
+    "bts_acronym": "ATI",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_assistance_technique_d_ingenieur:ccf",
+        "label": "ATI — CCF",
+        "bts_slug": "bts_assistance_technique_d_ingenieur",
+        "bts_label": "BTS Assistance technique d'ingénieur",
+        "bts_acronym": "ATI",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Assistance technique d'ingénieur ATI CCF bts assistance technique d ingenieur Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_assistance_technique_d_ingenieur:ponctuelle",
+        "label": "ATI — Ponctuelle",
+        "bts_slug": "bts_assistance_technique_d_ingenieur",
+        "bts_label": "BTS Assistance technique d'ingénieur",
+        "bts_acronym": "ATI",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Assistance technique d'ingénieur ATI Ponctuelle bts assistance technique d ingenieur Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_assurance",
+    "bts_label": "BTS Assurance",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_assurance:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_assurance",
+        "bts_label": "BTS Assurance",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Assurance CCF bts assurance CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_banque",
+    "bts_label": "BTS Banque",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_banque:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_banque",
+        "bts_label": "BTS Banque",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Banque CCF bts banque Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_banque:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_banque",
+        "bts_label": "BTS Banque",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Banque Ponctuelle bts banque Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_banque_conseiller_de_clientele_particuliers",
+    "bts_label": "BTS Banque, conseiller de clientèle (particuliers)",
+    "bts_acronym": "BCCP",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_banque_conseiller_de_clientele_particuliers:ccf",
+        "label": "BCCP — CCF",
+        "bts_slug": "bts_banque_conseiller_de_clientele_particuliers",
+        "bts_label": "BTS Banque, conseiller de clientèle (particuliers)",
+        "bts_acronym": "BCCP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Banque, conseiller de clientèle (particuliers) BCCP CCF bts banque conseiller de clientele particuliers Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_banque_conseiller_de_clientele_particuliers:ponctuelle",
+        "label": "BCCP — Ponctuelle",
+        "bts_slug": "bts_banque_conseiller_de_clientele_particuliers",
+        "bts_label": "BTS Banque, conseiller de clientèle (particuliers)",
+        "bts_acronym": "BCCP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Banque, conseiller de clientèle (particuliers) BCCP Ponctuelle bts banque conseiller de clientele particuliers Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_batiment",
+    "bts_label": "BTS Bâtiment",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_batiment:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_batiment",
+        "bts_label": "BTS Bâtiment",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Bâtiment CCF bts batiment Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_batiment:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_batiment",
+        "bts_label": "BTS Bâtiment",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Bâtiment Ponctuelle bts batiment Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_bioanalyses_en_laboratoire_de_controle",
+    "bts_label": "BTS Bioanalyses en laboratoire de contrôle",
+    "bts_acronym": "BLC",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_bioanalyses_en_laboratoire_de_controle:ponctuelle",
+        "label": "BLC — Ponctuelle",
+        "bts_slug": "bts_bioanalyses_en_laboratoire_de_controle",
+        "bts_label": "BTS Bioanalyses en laboratoire de contrôle",
+        "bts_acronym": "BLC",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Bioanalyses en laboratoire de contrôle BLC Ponctuelle bts bioanalyses en laboratoire de controle Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_bioqualite",
+    "bts_label": "BTS Bioqualite",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_bioqualite:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_bioqualite",
+        "bts_label": "BTS Bioqualite",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Bioqualite CCF bts bioqualite Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_bioqualite:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_bioqualite",
+        "bts_label": "BTS Bioqualite",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Bioqualite Ponctuelle bts bioqualite Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_biotechnologie_en_recherche_et_en_production",
+    "bts_label": "BTS Biotechnologie en recherche et en production",
+    "bts_acronym": "BRP",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_biotechnologie_en_recherche_et_en_production:ccf",
+        "label": "BRP — CCF",
+        "bts_slug": "bts_biotechnologie_en_recherche_et_en_production",
+        "bts_label": "BTS Biotechnologie en recherche et en production",
+        "bts_acronym": "BRP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Biotechnologie en recherche et en production BRP CCF bts biotechnologie en recherche et en production Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_biotechnologie_en_recherche_et_en_production:ponctuelle",
+        "label": "BRP — Ponctuelle",
+        "bts_slug": "bts_biotechnologie_en_recherche_et_en_production",
+        "bts_label": "BTS Biotechnologie en recherche et en production",
+        "bts_acronym": "BRP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Biotechnologie en recherche et en production BRP Ponctuelle bts biotechnologie en recherche et en production Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_biotechnologies",
+    "bts_label": "BTS Biotechnologies",
+    "bts_acronym": "",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_biotechnologies:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_biotechnologies",
+        "bts_label": "BTS Biotechnologies",
+        "bts_acronym": "",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Biotechnologies CCF bts biotechnologies CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_collaborateur_juriste_notarial",
+    "bts_label": "BTS Collaborateur juriste notarial",
+    "bts_acronym": "CJN",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_collaborateur_juriste_notarial:ccf",
+        "label": "CJN — CCF",
+        "bts_slug": "bts_collaborateur_juriste_notarial",
+        "bts_label": "BTS Collaborateur juriste notarial",
+        "bts_acronym": "CJN",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Collaborateur juriste notarial CJN CCF bts collaborateur juriste notarial Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_collaborateur_juriste_notarial:ponctuelle",
+        "label": "CJN — Ponctuelle",
+        "bts_slug": "bts_collaborateur_juriste_notarial",
+        "bts_label": "BTS Collaborateur juriste notarial",
+        "bts_acronym": "CJN",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Collaborateur juriste notarial CJN Ponctuelle bts collaborateur juriste notarial Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_commerce_international_a_referentiel_commun_europeen",
+    "bts_label": "BTS Commerce international a référentiel commun europeen",
+    "bts_acronym": "CIRCE",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_commerce_international_a_referentiel_commun_europeen:ccf",
+        "label": "CIRCE — CCF",
+        "bts_slug": "bts_commerce_international_a_referentiel_commun_europeen",
+        "bts_label": "BTS Commerce international a référentiel commun europeen",
+        "bts_acronym": "CIRCE",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Commerce international a référentiel commun europeen CIRCE CCF bts commerce international a referentiel commun europeen CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_communication",
+    "bts_label": "BTS Communication",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_communication:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_communication",
+        "bts_label": "BTS Communication",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Communication CCF bts communication Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_communication:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_communication",
+        "bts_label": "BTS Communication",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Communication Ponctuelle bts communication Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_comptabilite_et_gestion",
+    "bts_label": "BTS Comptabilité et gestion",
+    "bts_acronym": "CG",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_comptabilite_et_gestion:ponctuelle",
+        "label": "CG — Ponctuelle",
+        "bts_slug": "bts_comptabilite_et_gestion",
+        "bts_label": "BTS Comptabilité et gestion",
+        "bts_acronym": "CG",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Comptabilité et gestion CG Ponctuelle bts comptabilite et gestion Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_concepteur_en_art_et_industrie_ceramique",
+    "bts_label": "BTS Concepteur en art et industrie ceramique",
+    "bts_acronym": "CAIC",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_concepteur_en_art_et_industrie_ceramique:ponctuelle",
+        "label": "CAIC — Ponctuelle",
+        "bts_slug": "bts_concepteur_en_art_et_industrie_ceramique",
+        "bts_label": "BTS Concepteur en art et industrie ceramique",
+        "bts_acronym": "CAIC",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Concepteur en art et industrie ceramique CAIC Ponctuelle bts concepteur en art et industrie ceramique Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_conception_des_processus_de_decoupe_et_d_emboutissage",
+    "bts_label": "BTS Conception des processus de decoupe et d'emboutissage",
+    "bts_acronym": "CPDE",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_conception_des_processus_de_decoupe_et_d_emboutissage:ccf",
+        "label": "CPDE — CCF",
+        "bts_slug": "bts_conception_des_processus_de_decoupe_et_d_emboutissage",
+        "bts_label": "BTS Conception des processus de decoupe et d'emboutissage",
+        "bts_acronym": "CPDE",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Conception des processus de decoupe et d'emboutissage CPDE CCF bts conception des processus de decoupe et d emboutissage Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_conception_des_processus_de_decoupe_et_d_emboutissage:ponctuelle",
+        "label": "CPDE — Ponctuelle",
+        "bts_slug": "bts_conception_des_processus_de_decoupe_et_d_emboutissage",
+        "bts_label": "BTS Conception des processus de decoupe et d'emboutissage",
+        "bts_acronym": "CPDE",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Conception des processus de decoupe et d'emboutissage CPDE Ponctuelle bts conception des processus de decoupe et d emboutissage Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_conception_des_processus_de_realisation_de_produits",
+    "bts_label": "BTS Conception des processus de réalisation de produits",
+    "bts_acronym": "CPRP",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_conception_des_processus_de_realisation_de_produits:ccf",
+        "label": "CPRP — CCF",
+        "bts_slug": "bts_conception_des_processus_de_realisation_de_produits",
+        "bts_label": "BTS Conception des processus de réalisation de produits",
+        "bts_acronym": "CPRP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Conception des processus de réalisation de produits CPRP CCF bts conception des processus de realisation de produits Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_conception_des_processus_de_realisation_de_produits:ponctuelle",
+        "label": "CPRP — Ponctuelle",
+        "bts_slug": "bts_conception_des_processus_de_realisation_de_produits",
+        "bts_label": "BTS Conception des processus de réalisation de produits",
+        "bts_acronym": "CPRP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Conception des processus de réalisation de produits CPRP Ponctuelle bts conception des processus de realisation de produits Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_conception_des_produits_industriels",
+    "bts_label": "BTS Conception des produits industriels",
+    "bts_acronym": "CPI",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_conception_des_produits_industriels:ponctuelle",
+        "label": "CPI — Ponctuelle",
+        "bts_slug": "bts_conception_des_produits_industriels",
+        "bts_label": "BTS Conception des produits industriels",
+        "bts_acronym": "CPI",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Conception des produits industriels CPI Ponctuelle bts conception des produits industriels Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_conception_et_industrialisation_en_construction_navale",
+    "bts_label": "BTS Conception et industrialisation en construction navale",
+    "bts_acronym": "CICN",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_conception_et_industrialisation_en_construction_navale:ccf",
+        "label": "CICN — CCF",
+        "bts_slug": "bts_conception_et_industrialisation_en_construction_navale",
+        "bts_label": "BTS Conception et industrialisation en construction navale",
+        "bts_acronym": "CICN",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Conception et industrialisation en construction navale CICN CCF bts conception et industrialisation en construction navale Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_conception_et_industrialisation_en_construction_navale:ponctuelle",
+        "label": "CICN — Ponctuelle",
+        "bts_slug": "bts_conception_et_industrialisation_en_construction_navale",
+        "bts_label": "BTS Conception et industrialisation en construction navale",
+        "bts_acronym": "CICN",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Conception et industrialisation en construction navale CICN Ponctuelle bts conception et industrialisation en construction navale Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_conception_et_industrialisation_en_microtechniques",
+    "bts_label": "BTS Conception et industrialisation en microtechniques",
+    "bts_acronym": "CIM",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_conception_et_industrialisation_en_microtechniques:ponctuelle",
+        "label": "CIM — Ponctuelle",
+        "bts_slug": "bts_conception_et_industrialisation_en_microtechniques",
+        "bts_label": "BTS Conception et industrialisation en microtechniques",
+        "bts_acronym": "CIM",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Conception et industrialisation en microtechniques CIM Ponctuelle bts conception et industrialisation en microtechniques Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_conception_et_realisation_de_carrosserie",
+    "bts_label": "BTS Conception et réalisation de carrosserie",
+    "bts_acronym": "CRC",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_conception_et_realisation_de_carrosserie:ponctuelle",
+        "label": "CRC — Ponctuelle",
+        "bts_slug": "bts_conception_et_realisation_de_carrosserie",
+        "bts_label": "BTS Conception et réalisation de carrosserie",
+        "bts_acronym": "CRC",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Conception et réalisation de carrosserie CRC Ponctuelle bts conception et realisation de carrosserie Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_conception_et_realisation_de_systemes_automatiques",
+    "bts_label": "BTS Conception et réalisation de systemes automatiques",
+    "bts_acronym": "CRSA",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_conception_et_realisation_de_systemes_automatiques:ponctuelle",
+        "label": "CRSA — Ponctuelle",
+        "bts_slug": "bts_conception_et_realisation_de_systemes_automatiques",
+        "bts_label": "BTS Conception et réalisation de systemes automatiques",
+        "bts_acronym": "CRSA",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Conception et réalisation de systemes automatiques CRSA Ponctuelle bts conception et realisation de systemes automatiques Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_conception_et_realisation_en_chaudronnerie_industrielle",
+    "bts_label": "BTS Conception et réalisation en chaudronnerie industrielle",
+    "bts_acronym": "CRCI",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_conception_et_realisation_en_chaudronnerie_industrielle:ccf",
+        "label": "CRCI — CCF",
+        "bts_slug": "bts_conception_et_realisation_en_chaudronnerie_industrielle",
+        "bts_label": "BTS Conception et réalisation en chaudronnerie industrielle",
+        "bts_acronym": "CRCI",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Conception et réalisation en chaudronnerie industrielle CRCI CCF bts conception et realisation en chaudronnerie industrielle Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_conception_et_realisation_en_chaudronnerie_industrielle:ponctuelle",
+        "label": "CRCI — Ponctuelle",
+        "bts_slug": "bts_conception_et_realisation_en_chaudronnerie_industrielle",
+        "bts_label": "BTS Conception et réalisation en chaudronnerie industrielle",
+        "bts_acronym": "CRCI",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Conception et réalisation en chaudronnerie industrielle CRCI Ponctuelle bts conception et realisation en chaudronnerie industrielle Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_conseil_et_commercialisation_de_solutions_techniques",
+    "bts_label": "BTS Conseil et commercialisation de solutions techniques",
+    "bts_acronym": "CCST",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_conseil_et_commercialisation_de_solutions_techniques:ccf",
+        "label": "CCST — CCF",
+        "bts_slug": "bts_conseil_et_commercialisation_de_solutions_techniques",
+        "bts_label": "BTS Conseil et commercialisation de solutions techniques",
+        "bts_acronym": "CCST",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Conseil et commercialisation de solutions techniques CCST CCF bts conseil et commercialisation de solutions techniques Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_conseil_et_commercialisation_de_solutions_techniques:ponctuelle",
+        "label": "CCST — Ponctuelle",
+        "bts_slug": "bts_conseil_et_commercialisation_de_solutions_techniques",
+        "bts_label": "BTS Conseil et commercialisation de solutions techniques",
+        "bts_acronym": "CCST",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Conseil et commercialisation de solutions techniques CCST Ponctuelle bts conseil et commercialisation de solutions techniques Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_controle_des_rayonnements_ionisants_et_application_des_techniques_de_protection",
+    "bts_label": "BTS Contrôle des rayonnements ionisants et application des techniques de protection",
+    "bts_acronym": "CRIATP",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_controle_des_rayonnements_ionisants_et_application_des_techniques_de_protection:ponctuelle",
+        "label": "CRIATP — Ponctuelle",
+        "bts_slug": "bts_controle_des_rayonnements_ionisants_et_application_des_techniques_de_protection",
+        "bts_label": "BTS Contrôle des rayonnements ionisants et application des techniques de protection",
+        "bts_acronym": "CRIATP",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Contrôle des rayonnements ionisants et application des techniques de protection CRIATP Ponctuelle bts controle des rayonnements ionisants et application des techniques de protection Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_controle_industriel_et_regulation_automatique",
+    "bts_label": "BTS Contrôle industriel et regulation automatique",
+    "bts_acronym": "CIRA",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_controle_industriel_et_regulation_automatique:ccf",
+        "label": "CIRA — CCF",
+        "bts_slug": "bts_controle_industriel_et_regulation_automatique",
+        "bts_label": "BTS Contrôle industriel et regulation automatique",
+        "bts_acronym": "CIRA",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Contrôle industriel et regulation automatique CIRA CCF bts controle industriel et regulation automatique CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_cybersecurite_informatique_et_reseaux_electronique",
+    "bts_label": "BTS Cybersécurité, Informatique et réseaux, Électronique",
+    "bts_acronym": "CIEL",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_cybersecurite_informatique_et_reseaux_electronique:ccf",
+        "label": "CIEL — CCF",
+        "bts_slug": "bts_cybersecurite_informatique_et_reseaux_electronique",
+        "bts_label": "BTS Cybersécurité, Informatique et réseaux, Électronique",
+        "bts_acronym": "CIEL",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Cybersécurité, Informatique et réseaux, Électronique CIEL CCF bts cybersecurite informatique et reseaux electronique Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_cybersecurite_informatique_et_reseaux_electronique:ponctuelle",
+        "label": "CIEL — Ponctuelle",
+        "bts_slug": "bts_cybersecurite_informatique_et_reseaux_electronique",
+        "bts_label": "BTS Cybersécurité, Informatique et réseaux, Électronique",
+        "bts_acronym": "CIEL",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Cybersécurité, Informatique et réseaux, Électronique CIEL Ponctuelle bts cybersecurite informatique et reseaux electronique Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_design_d_espace",
+    "bts_label": "BTS Design d'espace",
+    "bts_acronym": "DE",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_design_d_espace:ccf",
+        "label": "DE — CCF",
+        "bts_slug": "bts_design_d_espace",
+        "bts_label": "BTS Design d'espace",
+        "bts_acronym": "DE",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Design d'espace DE CCF bts design d espace CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_design_de_mode_textiles_et_environnement",
+    "bts_label": "BTS Design de mode, textiles et environnement",
+    "bts_acronym": "DMTE",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_design_de_mode_textiles_et_environnement:ccf",
+        "label": "DMTE — CCF",
+        "bts_slug": "bts_design_de_mode_textiles_et_environnement",
+        "bts_label": "BTS Design de mode, textiles et environnement",
+        "bts_acronym": "DMTE",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Design de mode, textiles et environnement DMTE CCF bts design de mode textiles et environnement CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_design_de_produits",
+    "bts_label": "BTS Design de produits",
+    "bts_acronym": "DP",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_design_de_produits:ponctuelle",
+        "label": "DP — Ponctuelle",
+        "bts_slug": "bts_design_de_produits",
+        "bts_label": "BTS Design de produits",
+        "bts_acronym": "DP",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Design de produits DP Ponctuelle bts design de produits Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_design_graphique",
+    "bts_label": "BTS Design graphique",
+    "bts_acronym": "DG",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_design_graphique:ccf",
+        "label": "DG — CCF",
+        "bts_slug": "bts_design_graphique",
+        "bts_label": "BTS Design graphique",
+        "bts_acronym": "DG",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Design graphique DG CCF bts design graphique Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_design_graphique:ponctuelle",
+        "label": "DG — Ponctuelle",
+        "bts_slug": "bts_design_graphique",
+        "bts_label": "BTS Design graphique",
+        "bts_acronym": "DG",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Design graphique DG Ponctuelle bts design graphique Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_developpement_et_realisation_bois",
+    "bts_label": "BTS Développement et réalisation bois",
+    "bts_acronym": "DRB",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_developpement_et_realisation_bois:ponctuelle",
+        "label": "DRB — Ponctuelle",
+        "bts_slug": "bts_developpement_et_realisation_bois",
+        "bts_label": "BTS Développement et réalisation bois",
+        "bts_acronym": "DRB",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Développement et réalisation bois DRB Ponctuelle bts developpement et realisation bois Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_dietetique",
+    "bts_label": "BTS Diététique",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_dietetique:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_dietetique",
+        "bts_label": "BTS Diététique",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Diététique Ponctuelle bts dietetique Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_dietetique_et_nutrition",
+    "bts_label": "BTS Diététique et nutrition",
+    "bts_acronym": "DN",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_dietetique_et_nutrition:ccf",
+        "label": "DN — CCF",
+        "bts_slug": "bts_dietetique_et_nutrition",
+        "bts_label": "BTS Diététique et nutrition",
+        "bts_acronym": "DN",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Diététique et nutrition DN CCF bts dietetique et nutrition Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_dietetique_et_nutrition:ponctuelle",
+        "label": "DN — Ponctuelle",
+        "bts_slug": "bts_dietetique_et_nutrition",
+        "bts_label": "BTS Diététique et nutrition",
+        "bts_acronym": "DN",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Diététique et nutrition DN Ponctuelle bts dietetique et nutrition Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_economie_sociale_familiale",
+    "bts_label": "BTS Économie sociale familiale",
+    "bts_acronym": "ÉSF",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_economie_sociale_familiale:ccf",
+        "label": "ÉSF — CCF",
+        "bts_slug": "bts_economie_sociale_familiale",
+        "bts_label": "BTS Économie sociale familiale",
+        "bts_acronym": "ÉSF",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Économie sociale familiale ÉSF CCF bts economie sociale familiale Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_economie_sociale_familiale:ponctuelle",
+        "label": "ÉSF — Ponctuelle",
+        "bts_slug": "bts_economie_sociale_familiale",
+        "bts_label": "BTS Économie sociale familiale",
+        "bts_acronym": "ÉSF",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Économie sociale familiale ÉSF Ponctuelle bts economie sociale familiale Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_edition",
+    "bts_label": "BTS Édition",
+    "bts_acronym": "",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_edition:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_edition",
+        "bts_label": "BTS Édition",
+        "bts_acronym": "",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Édition CCF bts edition Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_edition:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_edition",
+        "bts_label": "BTS Édition",
+        "bts_acronym": "",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Édition Ponctuelle bts edition Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_electrotechnique",
+    "bts_label": "BTS Electrotechnique",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_electrotechnique:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_electrotechnique",
+        "bts_label": "BTS Electrotechnique",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Electrotechnique CCF bts electrotechnique Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_electrotechnique:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_electrotechnique",
+        "bts_label": "BTS Electrotechnique",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Electrotechnique Ponctuelle bts electrotechnique Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_enveloppe_des_batiments_conception_et_realisation",
+    "bts_label": "BTS Enveloppe des bâtiments : conception et réalisation",
+    "bts_acronym": "EBCR",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_enveloppe_des_batiments_conception_et_realisation:ccf",
+        "label": "EBCR — CCF",
+        "bts_slug": "bts_enveloppe_des_batiments_conception_et_realisation",
+        "bts_label": "BTS Enveloppe des bâtiments : conception et réalisation",
+        "bts_acronym": "EBCR",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Enveloppe des bâtiments : conception et réalisation EBCR CCF bts enveloppe des batiments conception et realisation Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_enveloppe_des_batiments_conception_et_realisation:ponctuelle",
+        "label": "EBCR — Ponctuelle",
+        "bts_slug": "bts_enveloppe_des_batiments_conception_et_realisation",
+        "bts_label": "BTS Enveloppe des bâtiments : conception et réalisation",
+        "bts_acronym": "EBCR",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Enveloppe des bâtiments : conception et réalisation EBCR Ponctuelle bts enveloppe des batiments conception et realisation Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_environnement_nucleaire",
+    "bts_label": "BTS Environnement nucléaire",
+    "bts_acronym": "EN",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_environnement_nucleaire:ccf",
+        "label": "EN — CCF",
+        "bts_slug": "bts_environnement_nucleaire",
+        "bts_label": "BTS Environnement nucléaire",
+        "bts_acronym": "EN",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Environnement nucléaire EN CCF bts environnement nucleaire CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_etude_et_realisation_d_agencement",
+    "bts_label": "BTS Étude et réalisation d'agencement",
+    "bts_acronym": "ÉRA",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_etude_et_realisation_d_agencement:ponctuelle",
+        "label": "ÉRA — Ponctuelle",
+        "bts_slug": "bts_etude_et_realisation_d_agencement",
+        "bts_label": "BTS Étude et réalisation d'agencement",
+        "bts_acronym": "ÉRA",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Étude et réalisation d'agencement ÉRA Ponctuelle bts etude et realisation d agencement Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_etudes_de_realisation_d_un_projet_de_communication",
+    "bts_label": "BTS Études de réalisation d'un projet de communication",
+    "bts_acronym": "ÉRUPC",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_etudes_de_realisation_d_un_projet_de_communication:ccf",
+        "label": "ÉRUPC — CCF",
+        "bts_slug": "bts_etudes_de_realisation_d_un_projet_de_communication",
+        "bts_label": "BTS Études de réalisation d'un projet de communication",
+        "bts_acronym": "ÉRUPC",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Études de réalisation d'un projet de communication ÉRUPC CCF bts etudes de realisation d un projet de communication CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_europlastics_et_composites",
+    "bts_label": "BTS Europlastics et composites",
+    "bts_acronym": "EC",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_europlastics_et_composites:ccf",
+        "label": "EC — CCF",
+        "bts_slug": "bts_europlastics_et_composites",
+        "bts_label": "BTS Europlastics et composites",
+        "bts_acronym": "EC",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Europlastics et composites EC CCF bts europlastics et composites Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_europlastics_et_composites:ponctuelle",
+        "label": "EC — Ponctuelle",
+        "bts_slug": "bts_europlastics_et_composites",
+        "bts_label": "BTS Europlastics et composites",
+        "bts_acronym": "EC",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Europlastics et composites EC Ponctuelle bts europlastics et composites Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_finitions_amenagement_des_batiments_conception_et_realisation",
+    "bts_label": "BTS Finitions, aménagement des bâtiments : conception et réalisation",
+    "bts_acronym": "FABCR",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_finitions_amenagement_des_batiments_conception_et_realisation:ccf",
+        "label": "FABCR — CCF",
+        "bts_slug": "bts_finitions_amenagement_des_batiments_conception_et_realisation",
+        "bts_label": "BTS Finitions, aménagement des bâtiments : conception et réalisation",
+        "bts_acronym": "FABCR",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Finitions, aménagement des bâtiments : conception et réalisation FABCR CCF bts finitions amenagement des batiments conception et realisation Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_finitions_amenagement_des_batiments_conception_et_realisation:ponctuelle",
+        "label": "FABCR — Ponctuelle",
+        "bts_slug": "bts_finitions_amenagement_des_batiments_conception_et_realisation",
+        "bts_label": "BTS Finitions, aménagement des bâtiments : conception et réalisation",
+        "bts_acronym": "FABCR",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Finitions, aménagement des bâtiments : conception et réalisation FABCR Ponctuelle bts finitions amenagement des batiments conception et realisation Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_fluides_energies_domotique",
+    "bts_label": "BTS Fluides, energies, domotique",
+    "bts_acronym": "FED",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_fluides_energies_domotique:ccf",
+        "label": "FED — CCF",
+        "bts_slug": "bts_fluides_energies_domotique",
+        "bts_label": "BTS Fluides, energies, domotique",
+        "bts_acronym": "FED",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Fluides, energies, domotique FED CCF bts fluides energies domotique CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_fonderie",
+    "bts_label": "BTS Fonderie",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_fonderie:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_fonderie",
+        "bts_label": "BTS Fonderie",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Fonderie CCF bts fonderie Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_fonderie:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_fonderie",
+        "bts_label": "BTS Fonderie",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Fonderie Ponctuelle bts fonderie Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_forge",
+    "bts_label": "BTS Forge",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_forge:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_forge",
+        "bts_label": "BTS Forge",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Forge CCF bts forge Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_forge:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_forge",
+        "bts_label": "BTS Forge",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Forge Ponctuelle bts forge Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_geologie_appliquee",
+    "bts_label": "BTS Géologie appliquee",
+    "bts_acronym": "GA",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_geologie_appliquee:ccf",
+        "label": "GA — CCF",
+        "bts_slug": "bts_geologie_appliquee",
+        "bts_label": "BTS Géologie appliquee",
+        "bts_acronym": "GA",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Géologie appliquee GA CCF bts geologie appliquee Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_geologie_appliquee:ponctuelle",
+        "label": "GA — Ponctuelle",
+        "bts_slug": "bts_geologie_appliquee",
+        "bts_label": "BTS Géologie appliquee",
+        "bts_acronym": "GA",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Géologie appliquee GA Ponctuelle bts geologie appliquee Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_gestion_de_la_pme",
+    "bts_label": "BTS Gestion de la PME",
+    "bts_acronym": "GP",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_gestion_de_la_pme:ccf",
+        "label": "GP — CCF",
+        "bts_slug": "bts_gestion_de_la_pme",
+        "bts_label": "BTS Gestion de la PME",
+        "bts_acronym": "GP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Gestion de la PME GP CCF bts gestion de la pme Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_gestion_de_la_pme:ponctuelle",
+        "label": "GP — Ponctuelle",
+        "bts_slug": "bts_gestion_de_la_pme",
+        "bts_label": "BTS Gestion de la PME",
+        "bts_acronym": "GP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Gestion de la PME GP Ponctuelle bts gestion de la pme Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_gestion_des_transports_et_logistique_associee",
+    "bts_label": "BTS Gestion des transports et logistique associée",
+    "bts_acronym": "GTLA",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_gestion_des_transports_et_logistique_associee:ccf",
+        "label": "GTLA — CCF",
+        "bts_slug": "bts_gestion_des_transports_et_logistique_associee",
+        "bts_label": "BTS Gestion des transports et logistique associée",
+        "bts_acronym": "GTLA",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Gestion des transports et logistique associée GTLA CCF bts gestion des transports et logistique associee Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_gestion_des_transports_et_logistique_associee:ponctuelle",
+        "label": "GTLA — Ponctuelle",
+        "bts_slug": "bts_gestion_des_transports_et_logistique_associee",
+        "bts_label": "BTS Gestion des transports et logistique associée",
+        "bts_acronym": "GTLA",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Gestion des transports et logistique associée GTLA Ponctuelle bts gestion des transports et logistique associee Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_industries_ceramiques",
+    "bts_label": "BTS Industries ceramiques",
+    "bts_acronym": "IC",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_industries_ceramiques:ccf",
+        "label": "IC — CCF",
+        "bts_slug": "bts_industries_ceramiques",
+        "bts_label": "BTS Industries ceramiques",
+        "bts_acronym": "IC",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Industries ceramiques IC CCF bts industries ceramiques Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_industries_ceramiques:ponctuelle",
+        "label": "IC — Ponctuelle",
+        "bts_slug": "bts_industries_ceramiques",
+        "bts_label": "BTS Industries ceramiques",
+        "bts_acronym": "IC",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Industries ceramiques IC Ponctuelle bts industries ceramiques Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_innovation_textile",
+    "bts_label": "BTS Innovation textile",
+    "bts_acronym": "IT",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_innovation_textile:ponctuelle",
+        "label": "IT — Ponctuelle",
+        "bts_slug": "bts_innovation_textile",
+        "bts_label": "BTS Innovation textile",
+        "bts_acronym": "IT",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Innovation textile IT Ponctuelle bts innovation textile Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_maintenance_des_materiels_de_construction_et_de_manutention",
+    "bts_label": "BTS Maintenance des materiels de construction et de manutention",
+    "bts_acronym": "MMCM",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_maintenance_des_materiels_de_construction_et_de_manutention:ccf",
+        "label": "MMCM — CCF",
+        "bts_slug": "bts_maintenance_des_materiels_de_construction_et_de_manutention",
+        "bts_label": "BTS Maintenance des materiels de construction et de manutention",
+        "bts_acronym": "MMCM",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Maintenance des materiels de construction et de manutention MMCM CCF bts maintenance des materiels de construction et de manutention Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_maintenance_des_materiels_de_construction_et_de_manutention:ponctuelle",
+        "label": "MMCM — Ponctuelle",
+        "bts_slug": "bts_maintenance_des_materiels_de_construction_et_de_manutention",
+        "bts_label": "BTS Maintenance des materiels de construction et de manutention",
+        "bts_acronym": "MMCM",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Maintenance des materiels de construction et de manutention MMCM Ponctuelle bts maintenance des materiels de construction et de manutention Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_maintenance_des_systemes",
+    "bts_label": "BTS Maintenance des systemes",
+    "bts_acronym": "MS",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_maintenance_des_systemes:ccf",
+        "label": "MS — CCF",
+        "bts_slug": "bts_maintenance_des_systemes",
+        "bts_label": "BTS Maintenance des systemes",
+        "bts_acronym": "MS",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Maintenance des systemes MS CCF bts maintenance des systemes Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_maintenance_des_systemes:ponctuelle",
+        "label": "MS — Ponctuelle",
+        "bts_slug": "bts_maintenance_des_systemes",
+        "bts_label": "BTS Maintenance des systemes",
+        "bts_acronym": "MS",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Maintenance des systemes MS Ponctuelle bts maintenance des systemes Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_maintenance_des_vehicules",
+    "bts_label": "BTS Maintenance des vehicules",
+    "bts_acronym": "MV",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_maintenance_des_vehicules:ccf",
+        "label": "MV — CCF",
+        "bts_slug": "bts_maintenance_des_vehicules",
+        "bts_label": "BTS Maintenance des vehicules",
+        "bts_acronym": "MV",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Maintenance des vehicules MV CCF bts maintenance des vehicules Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_maintenance_des_vehicules:ponctuelle",
+        "label": "MV — Ponctuelle",
+        "bts_slug": "bts_maintenance_des_vehicules",
+        "bts_label": "BTS Maintenance des vehicules",
+        "bts_acronym": "MV",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Maintenance des vehicules MV Ponctuelle bts maintenance des vehicules Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_management_commercial_operationnel",
+    "bts_label": "BTS Management commercial operationnel",
+    "bts_acronym": "MCO",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_management_commercial_operationnel:ccf",
+        "label": "MCO — CCF",
+        "bts_slug": "bts_management_commercial_operationnel",
+        "bts_label": "BTS Management commercial operationnel",
+        "bts_acronym": "MCO",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Management commercial operationnel MCO CCF bts management commercial operationnel Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_management_commercial_operationnel:ponctuelle",
+        "label": "MCO — Ponctuelle",
+        "bts_slug": "bts_management_commercial_operationnel",
+        "bts_label": "BTS Management commercial operationnel",
+        "bts_acronym": "MCO",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Management commercial operationnel MCO Ponctuelle bts management commercial operationnel Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_management_economique_de_la_construction",
+    "bts_label": "BTS Management économique de la construction",
+    "bts_acronym": "MÉC",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_management_economique_de_la_construction:ccf",
+        "label": "MÉC — CCF",
+        "bts_slug": "bts_management_economique_de_la_construction",
+        "bts_label": "BTS Management économique de la construction",
+        "bts_acronym": "MÉC",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Management économique de la construction MÉC CCF bts management economique de la construction Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_management_economique_de_la_construction:ponctuelle",
+        "label": "MÉC — Ponctuelle",
+        "bts_slug": "bts_management_economique_de_la_construction",
+        "bts_label": "BTS Management économique de la construction",
+        "bts_acronym": "MÉC",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Management économique de la construction MÉC Ponctuelle bts management economique de la construction Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_management_en_hotellerie_restauration",
+    "bts_label": "BTS Management en hotellerie-restauration",
+    "bts_acronym": "MHR",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_management_en_hotellerie_restauration:ponctuelle",
+        "label": "MHR — Ponctuelle",
+        "bts_slug": "bts_management_en_hotellerie_restauration",
+        "bts_label": "BTS Management en hotellerie-restauration",
+        "bts_acronym": "MHR",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Management en hotellerie-restauration MHR Ponctuelle bts management en hotellerie restauration Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_management_operationnel_de_la_securite",
+    "bts_label": "BTS Management operationnel de la sécurité",
+    "bts_acronym": "MOS",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_management_operationnel_de_la_securite:ccf",
+        "label": "MOS — CCF",
+        "bts_slug": "bts_management_operationnel_de_la_securite",
+        "bts_label": "BTS Management operationnel de la sécurité",
+        "bts_acronym": "MOS",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Management operationnel de la sécurité MOS CCF bts management operationnel de la securite Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_management_operationnel_de_la_securite:ponctuelle",
+        "label": "MOS — Ponctuelle",
+        "bts_slug": "bts_management_operationnel_de_la_securite",
+        "bts_label": "BTS Management operationnel de la sécurité",
+        "bts_acronym": "MOS",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Management operationnel de la sécurité MOS Ponctuelle bts management operationnel de la securite Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_de_l_audiovisuel",
+    "bts_label": "BTS Métiers de l'audiovisuel",
+    "bts_acronym": "MA",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_metiers_de_l_audiovisuel:ccf",
+        "label": "MA — CCF",
+        "bts_slug": "bts_metiers_de_l_audiovisuel",
+        "bts_label": "BTS Métiers de l'audiovisuel",
+        "bts_acronym": "MA",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Métiers de l'audiovisuel MA CCF bts metiers de l audiovisuel Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_metiers_de_l_audiovisuel:ponctuelle",
+        "label": "MA — Ponctuelle",
+        "bts_slug": "bts_metiers_de_l_audiovisuel",
+        "bts_label": "BTS Métiers de l'audiovisuel",
+        "bts_acronym": "MA",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Métiers de l'audiovisuel MA Ponctuelle bts metiers de l audiovisuel Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_de_l_eau",
+    "bts_label": "BTS Métiers de l'eau",
+    "bts_acronym": "ME",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_metiers_de_l_eau:ponctuelle",
+        "label": "ME — Ponctuelle",
+        "bts_slug": "bts_metiers_de_l_eau",
+        "bts_label": "BTS Métiers de l'eau",
+        "bts_acronym": "ME",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Métiers de l'eau ME Ponctuelle bts metiers de l eau Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_de_l_esthetique_cosmetique_parfumerie",
+    "bts_label": "BTS Métiers de l'esthetique-cosmetique-parfumerie",
+    "bts_acronym": "MECP",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_metiers_de_l_esthetique_cosmetique_parfumerie:ccf",
+        "label": "MECP — CCF",
+        "bts_slug": "bts_metiers_de_l_esthetique_cosmetique_parfumerie",
+        "bts_label": "BTS Métiers de l'esthetique-cosmetique-parfumerie",
+        "bts_acronym": "MECP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Métiers de l'esthetique-cosmetique-parfumerie MECP CCF bts metiers de l esthetique cosmetique parfumerie Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_metiers_de_l_esthetique_cosmetique_parfumerie:ponctuelle",
+        "label": "MECP — Ponctuelle",
+        "bts_slug": "bts_metiers_de_l_esthetique_cosmetique_parfumerie",
+        "bts_label": "BTS Métiers de l'esthetique-cosmetique-parfumerie",
+        "bts_acronym": "MECP",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Métiers de l'esthetique-cosmetique-parfumerie MECP Ponctuelle bts metiers de l esthetique cosmetique parfumerie Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_de_la_chimie",
+    "bts_label": "BTS Métiers de la chimie",
+    "bts_acronym": "MC",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_metiers_de_la_chimie:ponctuelle",
+        "label": "MC — Ponctuelle",
+        "bts_slug": "bts_metiers_de_la_chimie",
+        "bts_label": "BTS Métiers de la chimie",
+        "bts_acronym": "MC",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Métiers de la chimie MC Ponctuelle bts metiers de la chimie Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_de_la_coiffure",
+    "bts_label": "BTS Métiers de la coiffure",
+    "bts_acronym": "MC",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_metiers_de_la_coiffure:ccf",
+        "label": "MC — CCF",
+        "bts_slug": "bts_metiers_de_la_coiffure",
+        "bts_label": "BTS Métiers de la coiffure",
+        "bts_acronym": "MC",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Métiers de la coiffure MC CCF bts metiers de la coiffure Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_metiers_de_la_coiffure:ponctuelle",
+        "label": "MC — Ponctuelle",
+        "bts_slug": "bts_metiers_de_la_coiffure",
+        "bts_label": "BTS Métiers de la coiffure",
+        "bts_acronym": "MC",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Métiers de la coiffure MC Ponctuelle bts metiers de la coiffure Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_de_la_mesure",
+    "bts_label": "BTS Métiers de la mesure",
+    "bts_acronym": "MM",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_metiers_de_la_mesure:ponctuelle",
+        "label": "MM — Ponctuelle",
+        "bts_slug": "bts_metiers_de_la_mesure",
+        "bts_label": "BTS Métiers de la mesure",
+        "bts_acronym": "MM",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Métiers de la mesure MM Ponctuelle bts metiers de la mesure Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_de_la_mode_chaussure_et_maroquinerie",
+    "bts_label": "BTS Métiers de la mode - Chaussure et Maroquinerie",
+    "bts_acronym": "MMCM",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_metiers_de_la_mode_chaussure_et_maroquinerie:ponctuelle",
+        "label": "MMCM — Ponctuelle",
+        "bts_slug": "bts_metiers_de_la_mode_chaussure_et_maroquinerie",
+        "bts_label": "BTS Métiers de la mode - Chaussure et Maroquinerie",
+        "bts_acronym": "MMCM",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Métiers de la mode - Chaussure et Maroquinerie MMCM Ponctuelle bts metiers de la mode chaussure et maroquinerie Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_de_la_mode_vetements",
+    "bts_label": "BTS Métiers de la mode - Vetements",
+    "bts_acronym": "MMV",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_metiers_de_la_mode_vetements:ponctuelle",
+        "label": "MMV — Ponctuelle",
+        "bts_slug": "bts_metiers_de_la_mode_vetements",
+        "bts_label": "BTS Métiers de la mode - Vetements",
+        "bts_acronym": "MMV",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Métiers de la mode - Vetements MMV Ponctuelle bts metiers de la mode vetements Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_des_services_a_l_environnement",
+    "bts_label": "BTS Métiers des services a l'environnement",
+    "bts_acronym": "MSE",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_metiers_des_services_a_l_environnement:ccf",
+        "label": "MSE — CCF",
+        "bts_slug": "bts_metiers_des_services_a_l_environnement",
+        "bts_label": "BTS Métiers des services a l'environnement",
+        "bts_acronym": "MSE",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Métiers des services a l'environnement MSE CCF bts metiers des services a l environnement CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_metiers_du_geometre_topographe_et_de_la_modelisation_numerique",
+    "bts_label": "BTS Métiers du geomêtre-topographe et de la modelisation numerique",
+    "bts_acronym": "MGTMN",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_metiers_du_geometre_topographe_et_de_la_modelisation_numerique:ccf",
+        "label": "MGTMN — CCF",
+        "bts_slug": "bts_metiers_du_geometre_topographe_et_de_la_modelisation_numerique",
+        "bts_label": "BTS Métiers du geomêtre-topographe et de la modelisation numerique",
+        "bts_acronym": "MGTMN",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Métiers du geomêtre-topographe et de la modelisation numerique MGTMN CCF bts metiers du geometre topographe et de la modelisation numerique Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_metiers_du_geometre_topographe_et_de_la_modelisation_numerique:ponctuelle",
+        "label": "MGTMN — Ponctuelle",
+        "bts_slug": "bts_metiers_du_geometre_topographe_et_de_la_modelisation_numerique",
+        "bts_label": "BTS Métiers du geomêtre-topographe et de la modelisation numerique",
+        "bts_acronym": "MGTMN",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Métiers du geomêtre-topographe et de la modelisation numerique MGTMN Ponctuelle bts metiers du geometre topographe et de la modelisation numerique Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_moteur_a_combustion_interne",
+    "bts_label": "BTS Moteur a combustion interne",
+    "bts_acronym": "MCI",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_moteur_a_combustion_interne:ccf",
+        "label": "MCI — CCF",
+        "bts_slug": "bts_moteur_a_combustion_interne",
+        "bts_label": "BTS Moteur a combustion interne",
+        "bts_acronym": "MCI",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Moteur a combustion interne MCI CCF bts moteur a combustion interne Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_moteur_a_combustion_interne:ponctuelle",
+        "label": "MCI — Ponctuelle",
+        "bts_slug": "bts_moteur_a_combustion_interne",
+        "bts_label": "BTS Moteur a combustion interne",
+        "bts_acronym": "MCI",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Moteur a combustion interne MCI Ponctuelle bts moteur a combustion interne Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_negociation_et_digitalisation_de_la_relation_client",
+    "bts_label": "BTS Négociation et digitalisation de la relation client",
+    "bts_acronym": "NDRC",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_negociation_et_digitalisation_de_la_relation_client:ccf",
+        "label": "NDRC — CCF",
+        "bts_slug": "bts_negociation_et_digitalisation_de_la_relation_client",
+        "bts_label": "BTS Négociation et digitalisation de la relation client",
+        "bts_acronym": "NDRC",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Négociation et digitalisation de la relation client NDRC CCF bts negociation et digitalisation de la relation client Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_negociation_et_digitalisation_de_la_relation_client:ponctuelle",
+        "label": "NDRC — Ponctuelle",
+        "bts_slug": "bts_negociation_et_digitalisation_de_la_relation_client",
+        "bts_label": "BTS Négociation et digitalisation de la relation client",
+        "bts_acronym": "NDRC",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Négociation et digitalisation de la relation client NDRC Ponctuelle bts negociation et digitalisation de la relation client Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_notariat",
+    "bts_label": "BTS Notariat",
+    "bts_acronym": "",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_notariat:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_notariat",
+        "bts_label": "BTS Notariat",
+        "bts_acronym": "",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Notariat CCF bts notariat CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_opticien_lunetier",
+    "bts_label": "BTS Opticien-lunetier",
+    "bts_acronym": "OL",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_opticien_lunetier:ccf",
+        "label": "OL — CCF",
+        "bts_slug": "bts_opticien_lunetier",
+        "bts_label": "BTS Opticien-lunetier",
+        "bts_acronym": "OL",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Opticien-lunetier OL CCF bts opticien lunetier Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_opticien_lunetier:ponctuelle",
+        "label": "OL — Ponctuelle",
+        "bts_slug": "bts_opticien_lunetier",
+        "bts_label": "BTS Opticien-lunetier",
+        "bts_acronym": "OL",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Opticien-lunetier OL Ponctuelle bts opticien lunetier Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_orthoprothesiste",
+    "bts_label": "BTS Orthoprothesiste",
+    "bts_acronym": "",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_orthoprothesiste:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_orthoprothesiste",
+        "bts_label": "BTS Orthoprothesiste",
+        "bts_acronym": "",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Orthoprothesiste CCF bts orthoprothesiste Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_orthoprothesiste:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_orthoprothesiste",
+        "bts_label": "BTS Orthoprothesiste",
+        "bts_acronym": "",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Orthoprothesiste Ponctuelle bts orthoprothesiste Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_photographie",
+    "bts_label": "BTS Photographie",
+    "bts_acronym": "",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_photographie:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_photographie",
+        "bts_label": "BTS Photographie",
+        "bts_acronym": "",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Photographie CCF bts photographie Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_photographie:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_photographie",
+        "bts_label": "BTS Photographie",
+        "bts_acronym": "",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Photographie Ponctuelle bts photographie Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_photonique_technologies_et_sciences_de_la_lumiere",
+    "bts_label": "BTS Photonique : technologies et sciences de la lumiere",
+    "bts_acronym": "PTSL",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_photonique_technologies_et_sciences_de_la_lumiere:ccf",
+        "label": "PTSL — CCF",
+        "bts_slug": "bts_photonique_technologies_et_sciences_de_la_lumiere",
+        "bts_label": "BTS Photonique : technologies et sciences de la lumiere",
+        "bts_acronym": "PTSL",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Photonique : technologies et sciences de la lumiere PTSL CCF bts photonique technologies et sciences de la lumiere Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_photonique_technologies_et_sciences_de_la_lumiere:ponctuelle",
+        "label": "PTSL — Ponctuelle",
+        "bts_slug": "bts_photonique_technologies_et_sciences_de_la_lumiere",
+        "bts_label": "BTS Photonique : technologies et sciences de la lumiere",
+        "bts_acronym": "PTSL",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Photonique : technologies et sciences de la lumiere PTSL Ponctuelle bts photonique technologies et sciences de la lumiere Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_pilotage_des_procedes",
+    "bts_label": "BTS Pilotage des procédés",
+    "bts_acronym": "PP",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_pilotage_des_procedes:ponctuelle",
+        "label": "PP — Ponctuelle",
+        "bts_slug": "bts_pilotage_des_procedes",
+        "bts_label": "BTS Pilotage des procédés",
+        "bts_acronym": "PP",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Pilotage des procédés PP Ponctuelle bts pilotage des procedes Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_podo_orthesiste",
+    "bts_label": "BTS Podo-orthésiste",
+    "bts_acronym": "PO",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_podo_orthesiste:ccf",
+        "label": "PO — CCF",
+        "bts_slug": "bts_podo_orthesiste",
+        "bts_label": "BTS Podo-orthésiste",
+        "bts_acronym": "PO",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Podo-orthésiste PO CCF bts podo orthesiste Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_podo_orthesiste:ponctuelle",
+        "label": "PO — Ponctuelle",
+        "bts_slug": "bts_podo_orthesiste",
+        "bts_label": "BTS Podo-orthésiste",
+        "bts_acronym": "PO",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Podo-orthésiste PO Ponctuelle bts podo orthesiste Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_professions_immobilieres",
+    "bts_label": "BTS Professions immobilieres",
+    "bts_acronym": "PI",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_professions_immobilieres:ccf",
+        "label": "PI — CCF",
+        "bts_slug": "bts_professions_immobilieres",
+        "bts_label": "BTS Professions immobilieres",
+        "bts_acronym": "PI",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Professions immobilieres PI CCF bts professions immobilieres CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_prothesiste_dentaire",
+    "bts_label": "BTS Prothésiste dentaire",
+    "bts_acronym": "PD",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_prothesiste_dentaire:ccf",
+        "label": "PD — CCF",
+        "bts_slug": "bts_prothesiste_dentaire",
+        "bts_label": "BTS Prothésiste dentaire",
+        "bts_acronym": "PD",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Prothésiste dentaire PD CCF bts prothesiste dentaire CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_prothesiste_orthesiste",
+    "bts_label": "BTS Prothésiste orthesiste",
+    "bts_acronym": "PO",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_prothesiste_orthesiste:ccf",
+        "label": "PO — CCF",
+        "bts_slug": "bts_prothesiste_orthesiste",
+        "bts_label": "BTS Prothésiste orthesiste",
+        "bts_acronym": "PO",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Prothésiste orthesiste PO CCF bts prothesiste orthesiste Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_prothesiste_orthesiste:ponctuelle",
+        "label": "PO — Ponctuelle",
+        "bts_slug": "bts_prothesiste_orthesiste",
+        "bts_label": "BTS Prothésiste orthesiste",
+        "bts_acronym": "PO",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Prothésiste orthesiste PO Ponctuelle bts prothesiste orthesiste Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_services_et_prestations_des_secteurs_sanitaire_et_social",
+    "bts_label": "BTS Services et prestations des secteurs sanitaire et social",
+    "bts_acronym": "SPSSS",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_services_et_prestations_des_secteurs_sanitaire_et_social:ccf",
+        "label": "SPSSS — CCF",
+        "bts_slug": "bts_services_et_prestations_des_secteurs_sanitaire_et_social",
+        "bts_label": "BTS Services et prestations des secteurs sanitaire et social",
+        "bts_acronym": "SPSSS",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Services et prestations des secteurs sanitaire et social SPSSS CCF bts services et prestations des secteurs sanitaire et social Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_services_et_prestations_des_secteurs_sanitaire_et_social:ponctuelle",
+        "label": "SPSSS — Ponctuelle",
+        "bts_slug": "bts_services_et_prestations_des_secteurs_sanitaire_et_social",
+        "bts_label": "BTS Services et prestations des secteurs sanitaire et social",
+        "bts_acronym": "SPSSS",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Services et prestations des secteurs sanitaire et social SPSSS Ponctuelle bts services et prestations des secteurs sanitaire et social Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_services_informatiques_aux_organisations",
+    "bts_label": "BTS Services informatiques aux organisations",
+    "bts_acronym": "SIO",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_services_informatiques_aux_organisations:ccf",
+        "label": "SIO — CCF",
+        "bts_slug": "bts_services_informatiques_aux_organisations",
+        "bts_label": "BTS Services informatiques aux organisations",
+        "bts_acronym": "SIO",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Services informatiques aux organisations SIO CCF bts services informatiques aux organisations Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_services_informatiques_aux_organisations:ponctuelle",
+        "label": "SIO — Ponctuelle",
+        "bts_slug": "bts_services_informatiques_aux_organisations",
+        "bts_label": "BTS Services informatiques aux organisations",
+        "bts_acronym": "SIO",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Services informatiques aux organisations SIO Ponctuelle bts services informatiques aux organisations Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_support_a_l_action_manageriale",
+    "bts_label": "BTS Support a l'action manageriale",
+    "bts_acronym": "SAM",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_support_a_l_action_manageriale:ponctuelle",
+        "label": "SAM — Ponctuelle",
+        "bts_slug": "bts_support_a_l_action_manageriale",
+        "bts_label": "BTS Support a l'action manageriale",
+        "bts_acronym": "SAM",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Support a l'action manageriale SAM Ponctuelle bts support a l action manageriale Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_systemes_constructifs_bois_et_habitat",
+    "bts_label": "BTS Systemes constructifs bois et habitat",
+    "bts_acronym": "SCBH",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_systemes_constructifs_bois_et_habitat:ccf",
+        "label": "SCBH — CCF",
+        "bts_slug": "bts_systemes_constructifs_bois_et_habitat",
+        "bts_label": "BTS Systemes constructifs bois et habitat",
+        "bts_acronym": "SCBH",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Systemes constructifs bois et habitat SCBH CCF bts systemes constructifs bois et habitat Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_systemes_constructifs_bois_et_habitat:ponctuelle",
+        "label": "SCBH — Ponctuelle",
+        "bts_slug": "bts_systemes_constructifs_bois_et_habitat",
+        "bts_label": "BTS Systemes constructifs bois et habitat",
+        "bts_acronym": "SCBH",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Systemes constructifs bois et habitat SCBH Ponctuelle bts systemes constructifs bois et habitat Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_systemes_numeriques",
+    "bts_label": "BTS Systemes numeriques",
+    "bts_acronym": "SN",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_systemes_numeriques:ponctuelle",
+        "label": "SN — Ponctuelle",
+        "bts_slug": "bts_systemes_numeriques",
+        "bts_label": "BTS Systemes numeriques",
+        "bts_acronym": "SN",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Systemes numeriques SN Ponctuelle bts systemes numeriques Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_systemes_photoniques",
+    "bts_label": "BTS Systemes photoniques",
+    "bts_acronym": "SP",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_systemes_photoniques:ccf",
+        "label": "SP — CCF",
+        "bts_slug": "bts_systemes_photoniques",
+        "bts_label": "BTS Systemes photoniques",
+        "bts_acronym": "SP",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Systemes photoniques SP CCF bts systemes photoniques CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_techniques_et_services_en_materiels_agricoles",
+    "bts_label": "BTS Techniques et services en materiels agricoles",
+    "bts_acronym": "TSMA",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Ponctuelle",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_techniques_et_services_en_materiels_agricoles:ponctuelle",
+        "label": "TSMA — Ponctuelle",
+        "bts_slug": "bts_techniques_et_services_en_materiels_agricoles",
+        "bts_label": "BTS Techniques et services en materiels agricoles",
+        "bts_acronym": "TSMA",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Techniques et services en materiels agricoles TSMA Ponctuelle bts techniques et services en materiels agricoles Ponctuelle"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_tourisme",
+    "bts_label": "BTS Tourisme",
+    "bts_acronym": "",
+    "support_document_label": "dossier professionnel",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_tourisme:ccf",
+        "label": " — CCF",
+        "bts_slug": "bts_tourisme",
+        "bts_label": "BTS Tourisme",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Tourisme CCF bts tourisme Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_tourisme:ponctuelle",
+        "label": " — Ponctuelle",
+        "bts_slug": "bts_tourisme",
+        "bts_label": "BTS Tourisme",
+        "bts_acronym": "",
+        "support_document_label": "dossier professionnel",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Tourisme Ponctuelle bts tourisme Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_traitements_des_materiaux",
+    "bts_label": "BTS Traitements des materiaux",
+    "bts_acronym": "TM",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "CCF",
+    "requires_explicit_mode": false,
+    "options": [
+      {
+        "selection_key": "bts_traitements_des_materiaux:ccf",
+        "label": "TM — CCF",
+        "bts_slug": "bts_traitements_des_materiaux",
+        "bts_label": "BTS Traitements des materiaux",
+        "bts_acronym": "TM",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Traitements des materiaux TM CCF bts traitements des materiaux CCF"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_transport_et_prestations_logistiques",
+    "bts_label": "BTS Transport et prestations logistiques",
+    "bts_acronym": "TPL",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_transport_et_prestations_logistiques:ccf",
+        "label": "TPL — CCF",
+        "bts_slug": "bts_transport_et_prestations_logistiques",
+        "bts_label": "BTS Transport et prestations logistiques",
+        "bts_acronym": "TPL",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Transport et prestations logistiques TPL CCF bts transport et prestations logistiques Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_transport_et_prestations_logistiques:ponctuelle",
+        "label": "TPL — Ponctuelle",
+        "bts_slug": "bts_transport_et_prestations_logistiques",
+        "bts_label": "BTS Transport et prestations logistiques",
+        "bts_acronym": "TPL",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Transport et prestations logistiques TPL Ponctuelle bts transport et prestations logistiques Mixte selon voie"
+      }
+    ]
+  },
+  {
+    "bts_slug": "bts_travaux_publics",
+    "bts_label": "BTS Travaux publics",
+    "bts_acronym": "TP",
+    "support_document_label": "rapport de stage",
+    "mode_evaluation": "Mixte selon voie",
+    "requires_explicit_mode": true,
+    "options": [
+      {
+        "selection_key": "bts_travaux_publics:ccf",
+        "label": "TP — CCF",
+        "bts_slug": "bts_travaux_publics",
+        "bts_label": "BTS Travaux publics",
+        "bts_acronym": "TP",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ccf",
+        "evaluation_mode_label": "CCF",
+        "search_text": "BTS Travaux publics TP CCF bts travaux publics Mixte selon voie"
+      },
+      {
+        "selection_key": "bts_travaux_publics:ponctuelle",
+        "label": "TP — Ponctuelle",
+        "bts_slug": "bts_travaux_publics",
+        "bts_label": "BTS Travaux publics",
+        "bts_acronym": "TP",
+        "support_document_label": "rapport de stage",
+        "evaluation_mode": "ponctuelle",
+        "evaluation_mode_label": "Ponctuelle",
+        "search_text": "BTS Travaux publics TP Ponctuelle bts travaux publics Mixte selon voie"
+      }
+    ]
+  }
+]
