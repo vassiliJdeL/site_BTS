@@ -78,17 +78,13 @@
             margin: 0 0 4rem;
         }
 
-        .video-placeholder {
+        .xenophon-demo-video {
+            display: block;
+            width: 100%;
             aspect-ratio: 16 / 9;
             background: #000;
+            border: 0;
             border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: rgba(242, 243, 245, 0.78);
-            font-size: 1rem;
-            text-align: center;
-            padding: 1.5rem;
         }
 
         @media (max-width: 720px) {
@@ -166,12 +162,10 @@
                 </section>
 
                 <div class="video-placeholder-container">
-                    <div class="video-placeholder">
-                        Espace réservé pour la démonstration vidéo de Xénophon
-                    </div>
-                    <p style="text-align: center; margin: 1rem 0 0; color: var(--text-muted); font-size: 0.9rem;">
-                        Cet emplacement accueillera la démonstration vidéo, dans le même format que sur le site principal.
-                    </p>
+                    <video class="xenophon-demo-video" controls playsinline preload="metadata">
+                        <source src="../assets/xenophon-demo.mp4" type="video/mp4">
+                        Votre navigateur ne permet pas la lecture intégrée de cette vidéo.
+                    </video>
                 </div>
 
                 <section class="editorial-section">
